@@ -1,4 +1,18 @@
+$green: #099b88;
+
+
 body{
 
 }
+
+.section{
+	height: 100%;
+	h1{
+		font-size:50px;
+	}
+}
+
+/*Import additional stylesheets*/
+
+@import 'home', 'info', 'history', 'vendoroftheday', 'map';
 
