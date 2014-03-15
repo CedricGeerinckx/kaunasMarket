@@ -1,0 +1,46 @@
+/* line 7, ../sass/main.scss */
+body {
+  background-color: #099b88;
+}
+
+/* line 11, ../sass/main.scss */
+#navigation {
+  height: 30px;
+  position: fixed;
+  background-color: black;
+  z-index: 99;
+}
+
+/* line 17, ../sass/main.scss */
+.section {
+  height: 100%;
+}
+/* line 19, ../sass/main.scss */
+.section h1 {
+  font-size: 50px;
+}
+/* line 22, ../sass/main.scss */
+.section h2 {
+  font-size: 40px;
+}
+
+/*Import additional stylesheets*/
+/* line 1, ../sass/_home.scss */
+#home {
+  backgroud-color: #099b88;
+}
+
+/* line 1, ../sass/_info.scss */
+#info {
+  background-color: yellow;
+}
+
+/* line 1, ../sass/_history.scss */
+#history {
+  background-color: red;
+}
+
+/* line 1, ../sass/_map.scss */
+#map {
+  background-color: blue;
+}
