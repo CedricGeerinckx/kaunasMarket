@@ -6,6 +6,10 @@
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
 
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/main.js"></script>
 </head>
 
 <body>
@@ -26,10 +30,6 @@
 		<h1>History</h1>
 	</div>
 
-<script src="js/jquery.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.fullPage.min.js"></script>
-<script src="js/main.js"></script>
 </body>
 
 </html>
