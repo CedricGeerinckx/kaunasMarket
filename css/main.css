@@ -1,48 +1,38 @@
-/* line 7, ../sass/main.scss */
+/* line 4, ../sass/main.scss */
 body {
-  background-color: #099b88;
+  background-color: white;
 }
 
-/* line 11, ../sass/main.scss */
-#navigation {
-  height: 30px;
-  width: 100%;
-  position: fixed;
-  background-color: black;
-  z-index: 99;
-}
-
-/* line 18, ../sass/main.scss */
+/* line 7, ../sass/main.scss */
 .section {
   height: 100%;
   width: 100%;
 }
-/* line 21, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 .section h1 {
   font-size: 50px;
 }
-/* line 24, ../sass/main.scss */
+/* line 13, ../sass/main.scss */
 .section h2 {
   font-size: 40px;
 }
 
 /*Import additional stylesheets*/
-/* line 1, ../sass/_home.scss */
-#home {
-  backgroud-color: #099b88;
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+#navigation {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 99;
+  border-bottom: 1px solid #6b6e76;
 }
-
-/* line 1, ../sass/_info.scss */
-#info {
-  background-color: yellow;
-}
-
-/* line 1, ../sass/_history.scss */
-#history {
-  background-color: red;
-}
-
-/* line 1, ../sass/_map.scss */
-#map {
-  background-color: blue;
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+#navigation #logo {
+  height: 100%;
+  width: 250px;
+  background-color: #33241a;
+  color: white;
+  font-size: 30px;
+  text-align: center;
 }

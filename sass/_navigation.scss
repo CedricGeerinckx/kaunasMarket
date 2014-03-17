@@ -1,0 +1,16 @@
+#navigation{
+	height:80px;
+	width:100%;
+	position:fixed;
+	background-color:$white;
+	z-index:99;
+	border-bottom:1px solid #6b6e76;
+	#logo{
+		height:100%;
+		width:250px;
+		background-color:#33241a;
+		color:$white;
+		font-size:30px;
+		text-align:center;
+	}
+}

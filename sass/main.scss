@@ -1,19 +1,8 @@
-$green: #099b88;
-$red: red;
-$blue: blue;
-$yellow: yellow;
+$white: #fff;
 
 
 body{
-	
-	background-color: $green;
-}
-#navigation{
-	height:30px;
-	width:100%;
-	position:fixed;
-	background-color: black;
-	z-index:99;
+	background-color: $white;
 }
 .section{
 	height:100%;
@@ -28,5 +17,5 @@ body{
 
 /*Import additional stylesheets*/
 
-@import '_home', '_info', '_history', '_vendoroftheday', '_map';
+@import '_home', '_info', '_history', '_vendoroftheday', '_map', '_navigation';
 
