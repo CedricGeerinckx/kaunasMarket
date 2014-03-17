@@ -24,16 +24,22 @@ body {
 }
 
 /*Import additional stylesheets*/
-/* line 1, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 1, ../sass/_map.scss */
+#map {
+  display: block;
+}
+
+/* line 1, ../sass/_navigation.scss */
 #navigation {
   height: 80px;
   width: 100%;
   position: fixed;
+  display: block;
   background-color: #ebebeb;
   z-index: 99;
   border-bottom: 1px solid #6b6e76;
 }
-/* line 8, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 9, ../sass/_navigation.scss */
 #navigation #logo {
   height: 100%;
   width: 300px;
@@ -44,7 +50,7 @@ body {
   float: left;
   line-height: 80px;
 }
-/* line 18, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 19, ../sass/_navigation.scss */
 #navigation #navlinks {
   list-style: none;
   margin-right: 50px;
@@ -52,7 +58,7 @@ body {
   float: right;
   height: 100%;
 }
-/* line 24, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 25, ../sass/_navigation.scss */
 #navigation #navlinks li {
   display: inline-block;
   height: 100%;
@@ -61,16 +67,16 @@ body {
   font-size: 30px;
   line-height: 90px;
 }
-/* line 31, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 32, ../sass/_navigation.scss */
 #navigation #navlinks li a {
   text-decoration: none;
   color: #5f4739;
 }
-/* line 35, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 36, ../sass/_navigation.scss */
 #navigation #navlinks li a:hover {
   color: #ad8454;
 }
-/* line 40, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 41, ../sass/_navigation.scss */
 #navigation #register {
   float: right;
   height: 100%;
