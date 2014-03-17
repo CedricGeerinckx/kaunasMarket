@@ -14,6 +14,11 @@
 	</div>
 	<div class="section active" id="home">
 		<h1>Home</h1>
+		<form>
+            <textarea name="editor1" id="editor1" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+        </form>
 	</div>
 	<div class="section" id="info">
 		<h1>Info</h1>
@@ -29,7 +34,6 @@
 <script src="js/jquery-ui.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script src="js/main.js"></script>
-
 </body>
 
 </html>

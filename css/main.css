@@ -6,20 +6,22 @@ body {
 /* line 11, ../sass/main.scss */
 #navigation {
   height: 30px;
+  width: 100%;
   position: fixed;
   background-color: black;
   z-index: 99;
 }
 
-/* line 17, ../sass/main.scss */
+/* line 18, ../sass/main.scss */
 .section {
   height: 100%;
+  width: 100%;
 }
-/* line 19, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 .section h1 {
   font-size: 50px;
 }
-/* line 22, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 .section h2 {
   font-size: 40px;
 }
