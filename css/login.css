@@ -1,0 +1,8 @@
+/* line 1, ../sass/login.scss */
+#container {
+  width: 500px;
+  height: 400px;
+  margin: 100px auto;
+  border: 1px solid #000;
+  text-align: center;
+}
