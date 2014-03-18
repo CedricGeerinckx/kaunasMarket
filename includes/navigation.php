@@ -15,7 +15,7 @@
 			<a href="#info">INFO</a>
 		</li>
 		<li data-menuanchor="map">
-			<a href="#map">MAP</a>
+			<a href="#map2">MAP</a>
 		</li>
 		<li data-menuanchor="history">
 			<a href="#history">HISTORY</a>
