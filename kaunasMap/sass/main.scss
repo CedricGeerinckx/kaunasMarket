@@ -13,7 +13,7 @@ body { height: 100%; margin: 0; padding: 0; font-family:Arial, Helvetica, sans-s
 	font-size: 20px;
 	padding:5px;
 	background:rgb(156, 114, 60); /* Fall-back for browsers that don't support rgba */
-    background:rgba(156, 114, 60, .5);
+    background:rgba(156, 114, 60, .7);
     border:1px solid #4c372a;
     margin-top:10px;
     margin-right:10px;
@@ -22,6 +22,8 @@ body { height: 100%; margin: 0; padding: 0; font-family:Arial, Helvetica, sans-s
 	font-variant:small-caps;
 	h2{
 		text-align:center;
+		margin-top:10px;
+		margin-bottom:10px;
 	}
 	#checkboxes{
 		margin:0 0 10px 10px;
@@ -42,7 +44,7 @@ body { height: 100%; margin: 0; padding: 0; font-family:Arial, Helvetica, sans-s
 		}
 	}
 }
-#infowindow{
+.infowindow{
 	min-width:500px;
 	min-height:500px;
 	text-align:center;
