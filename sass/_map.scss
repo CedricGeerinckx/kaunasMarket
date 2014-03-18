@@ -31,11 +31,11 @@
 		    height:35px;
 		    line-height:30px;
 		    vertical-align:middle;
-		    background:url('img/checkbox.png') center no-repeat;
+		    background:url('../img/checkbox.png') center no-repeat;
 		    cursor:pointer;
 		}
 		input[type="checkbox"]:checked + label span {
-		    background:url('img/checkbox_checked.png') center no-repeat;
+		    background:url('../img/checkbox_checked.png') center no-repeat;
 		}
 	}
 }

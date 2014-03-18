@@ -67,12 +67,12 @@ body {
   height: 35px;
   line-height: 30px;
   vertical-align: middle;
-  background: url("img/checkbox.png") center no-repeat;
+  background: url("../img/checkbox.png") center no-repeat;
   cursor: pointer;
 }
 /* line 37, ../sass/_map.scss */
 #controlpanel #checkboxes input[type="checkbox"]:checked + label span {
-  background: url("img/checkbox_checked.png") center no-repeat;
+  background: url("../img/checkbox_checked.png") center no-repeat;
 }
 
 /* line 42, ../sass/_map.scss */
@@ -134,4 +134,9 @@ body {
   height: 100%;
   width: 200px;
   background-color: #5f4739;
+}
+
+/* line 1, ../sass/_gallery.scss */
+#gallery_ {
+  background-color: #999;
 }

@@ -82,6 +82,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 $("#controlpanel :checkbox").change(function(){
   var $this = $(this);
   var type = $this.val();
+  alert("asd");
   if($this.attr('checked')){
     for (var i = 0; i < markerGroups[type].length; i++) {
       var marker = markerGroups[type][i];

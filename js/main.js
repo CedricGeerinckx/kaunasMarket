@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $.fn.fullpage({
-    	anchors: ['home', 'info', 'map', 'history']
+    	anchors: ['home', 'info', 'gallery', 'map2']
     });
 });
