@@ -30,6 +30,16 @@
 	<div class="section" id="section2">
 		<div id="map">
 		</div>
+		<div id="controlpanel">
+			<h2>Select category</h2>
+			<div id="checkboxes">
+				<input type="checkbox" class="checkbox" value="1" checked="checked" id="c1"/><label for="c1"><span></span></label> Food<br/>
+				<input type="checkbox" class="checkbox" value="2" checked="checked" id="c2"/><label for="c2"><span></span></label> Clothes<br/>
+				<input type="checkbox" class="checkbox" value="3" checked="checked" id="c3"/><label for="c3"><span></span></label> Crafts<br/>
+				<input type="checkbox" class="checkbox" value="4" checked="checked" id="c4"/><label for="c4"><span></span></label> Drinks<br/>
+				<input type="checkbox" class="checkbox" value="5" checked="checked" id="c5"/><label for="c5"><span></span></label> Other<br/>
+			</div>
+		</div>
 	</div>
 	<div class="section" id="section3">
 		<h1>History</h1>

@@ -29,17 +29,69 @@ body {
   display: block;
 }
 
+/* line 4, ../sass/_map.scss */
+#controlpanel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+  font-size: 20px;
+  padding: 5px;
+  background: #9c723c;
+  /* Fall-back for browsers that don't support rgba */
+  background: rgba(156, 114, 60, 0.5);
+  border: 1px solid #4c372a;
+  margin-top: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  color: #4c372a;
+  font-variant: small-caps;
+}
+/* line 19, ../sass/_map.scss */
+#controlpanel h2 {
+  font-size: 30px;
+  text-align: center;
+}
+/* line 23, ../sass/_map.scss */
+#controlpanel #checkboxes {
+  margin: 0 0 10px 10px;
+}
+/* line 25, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"] {
+  display: none;
+}
+/* line 28, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 30px;
+  vertical-align: middle;
+  background: url("img/checkbox.png") center no-repeat;
+  cursor: pointer;
+}
+/* line 37, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"]:checked + label span {
+  background: url("img/checkbox_checked.png") center no-repeat;
+}
+
+/* line 42, ../sass/_map.scss */
+#infowindow {
+  min-width: 500px;
+  min-height: 500px;
+  text-align: center;
+}
+
 /* line 1, ../sass/_navigation.scss */
 #navigation {
   height: 80px;
   width: 100%;
   position: fixed;
-  display: block;
   background-color: #ebebeb;
   z-index: 99;
   border-bottom: 1px solid #6b6e76;
 }
-/* line 9, ../sass/_navigation.scss */
+/* line 8, ../sass/_navigation.scss */
 #navigation #logo {
   height: 100%;
   width: 300px;
@@ -50,7 +102,7 @@ body {
   float: left;
   line-height: 80px;
 }
-/* line 19, ../sass/_navigation.scss */
+/* line 18, ../sass/_navigation.scss */
 #navigation #navlinks {
   list-style: none;
   margin-right: 50px;
@@ -58,7 +110,7 @@ body {
   float: right;
   height: 100%;
 }
-/* line 25, ../sass/_navigation.scss */
+/* line 24, ../sass/_navigation.scss */
 #navigation #navlinks li {
   display: inline-block;
   height: 100%;
@@ -67,16 +119,16 @@ body {
   font-size: 30px;
   line-height: 90px;
 }
-/* line 32, ../sass/_navigation.scss */
+/* line 31, ../sass/_navigation.scss */
 #navigation #navlinks li a {
   text-decoration: none;
   color: #5f4739;
 }
-/* line 36, ../sass/_navigation.scss */
+/* line 35, ../sass/_navigation.scss */
 #navigation #navlinks li a:hover {
   color: #ad8454;
 }
-/* line 41, ../sass/_navigation.scss */
+/* line 40, ../sass/_navigation.scss */
 #navigation #register {
   float: right;
   height: 100%;
