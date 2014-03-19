@@ -4,6 +4,9 @@
 	position:fixed;
 	background-color:$white;
 	z-index:99;
+	-webkit-box-shadow: 0 1px 1px -1px $brown;
+       -moz-box-shadow: 0 1px 1px -1px $brown;
+            box-shadow: 0 1px 1px -1px $brown;
 	#logo{
 		height:100%;
 		width:300px;
@@ -21,7 +24,6 @@
 		float:right;
 		height:20px;
 		li{
-
 			font-weight: $bold;
 			border-left: 1px solid $green;
 			font-family: $incon;
@@ -31,24 +33,22 @@
 			padding:0 20px;
 			font-size: 25px;
 			a{
-
 				width:300px;
 				padding-left: 20px;
 				padding-right: 20px;
 				text-decoration:none;
-				color:#5f4739;
+				color:$lightbrown;
 			}
 			a:hover{
-				color:#ad8454;
+				color:$lightestbrown;
 			}
 		}
-
+		li.active a{
+			color:$lightestbrown;
+		}
 		.first{
 			border:none;
 		}
-	}
-	.active{
-		color:#ad8454;
 	}
 }
 
