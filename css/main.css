@@ -14,6 +14,10 @@ body {
   height: 100%; }
 
 /*Import additional stylesheets*/
+video {
+  width: 100%;
+  height: 100%; }
+
 #section1 h1 {
   font-size: 40px;
   color: #32CD32;
@@ -157,4 +161,4 @@ body {
     background-color: #5f4739; }
 
 #gallery_ {
-  background-color: #999; }
+  background-color: black; }
