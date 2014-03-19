@@ -34,13 +34,7 @@
 	?>
 
 	<div class="section active" id="home_">
-<<<<<<< HEAD
-=======
-
 	<div class="videoContainer">
-		<h1>Home</h1>
-
->>>>>>> FETCH_HEAD
 		<video id="homeVid" loop>
 			<source src="vid/vid.webm" type="video/webm">
 			<source src="vid/vid.mp4" type="video/mp4">
