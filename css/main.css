@@ -18,7 +18,7 @@ body {
   font-size: 40px;
 }
 
-/* line 18, ../sass/main.scss */
+/* line 19, ../sass/main.scss */
 #map {
   height: 100%;
 }
@@ -30,90 +30,40 @@ video {
   height: 100%;
 }
 
-/* line 3, ../sass/_info.scss */
+/* line 2, ../sass/_info.scss */
+#section1 .fullPage-slidesNav {
+  width: 100%;
+}
+/* line 4, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul {
+  text-align: center;
+  list-style: none;
+}
+/* line 7, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul li {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+/* line 10, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul li a {
+  text-decoration: none;
+  color: #5f4739;
+  font-size: 25px;
+}
+/* line 16, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul li a.active {
+  color: #ad8454;
+}
+/* line 19, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul li a:hover {
+  color: #ad8454;
+}
+/* line 26, ../sass/_info.scss */
 #section1 h1 {
   font-size: 40px;
   color: #32CD32;
   margin-bottom: 10px;
-}
-/* line 10, ../sass/_info.scss */
-#section1 .infotext {
-  height: 400px;
-  width: 275px;
-  font-size: 20px;
-  word-wrap: break-all;
-  text-align: justify;
-  position: absolute;
-  float: left;
-}
-/* line 21, ../sass/_info.scss */
-#section1 .infotext h1 {
-  font-size: 50px;
-  color: #32CD32;
-  margin: 0;
-}
-/* line 28, ../sass/_info.scss */
-#section1 #text1 {
-  margin-left: 7%;
-  margin-top: -350px;
-}
-/* line 32, ../sass/_info.scss */
-#section1 #text2 {
-  margin-left: 12%;
-  margin-top: -450px;
-}
-/* line 36, ../sass/_info.scss */
-#section1 #text3 {
-  margin-left: 13%;
-  margin-top: -50px;
-}
-/* line 40, ../sass/_info.scss */
-#section1 #text4 {
-  margin-left: 18%;
-  margin-top: -180px;
-}
-/* line 45, ../sass/_info.scss */
-#section1 .infoBox {
-  height: 700px;
-  width: 16%;
-  position: absolute;
-  margin-top: -500px;
-  margin-left: 6.5%;
-  border: 1px solid #32CD32;
-  /*TO BE REMOVED */
-}
-/* line 55, ../sass/_info.scss */
-#section1 ul {
-  list-style-type: none;
-  margin: 20px;
-  padding: 0;
-  width: 275px;
-}
-/* line 62, ../sass/_info.scss */
-#section1 li {
-  font: 200 30px/1.5 Helvetica, Verdana, sans-serif;
-  border-bottom: 2px solid #ccc;
-}
-/* line 67, ../sass/_info.scss */
-#section1 li:last-child {
-  border: none;
-}
-/* line 71, ../sass/_info.scss */
-#section1 li a {
-  text-decoration: none;
-  color: #000;
-  display: block;
-  width: 275px;
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
-}
-/* line 84, ../sass/_info.scss */
-#section1 li a:hover {
-  font-size: 35px;
-  background: #f6f6f6;
+  position: relative;
 }
 
 /* line 1, ../sass/_map.scss */
@@ -224,9 +174,15 @@ video {
   color: #ad8454;
 }
 /* line 40, ../sass/_navigation.scss */
+#navigation .active {
+  color: #ad8454;
+}
+/* line 43, ../sass/_navigation.scss */
 #navigation #register {
-  float: right;
-  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
   width: 200px;
   background-color: #5f4739;
 }

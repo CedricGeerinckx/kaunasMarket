@@ -99,7 +99,6 @@ html, body {
 .fullPage-slidesNav {
     position: absolute;
     z-index: 4;
-    left: 50%;
     opacity: 1;
 }
 .fullPage-slidesNav.bottom {
@@ -112,12 +111,11 @@ html, body {
 .fullPage-slidesNav ul {
   margin: 0;
   padding: 0;
+  list-style:none;
 }
 #fullPage-nav li,
 .fullPage-slidesNav li {
-    display: block;
-    width: 14px;
-    height: 13px;
+    display: inline-block;
     margin: 7px;
     position:relative;
 }
@@ -129,8 +127,6 @@ html, body {
     display: block;
     position: relative;
     z-index: 1;
-    width: 100%;
-    height: 100%;
     cursor: pointer;
     text-decoration: none;
 }
