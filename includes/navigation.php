@@ -3,12 +3,12 @@
 		LOGO
 	</div>
 
-	<div id="register">
-		REGISTER A VENDR SPOT
-	</div>
+<!-- 	<div id="register">
+		<a id="register" href="#">REGISTER A VENDOR SPOT</a>
+	</div> -->
 
 	<ul id="navlinks">
-		<li data-menuanchor="home">
+		<li data-menuanchor="home" class="first">
 			<a href="#home">HOME</a>
 		</li>
 		<li data-menuanchor="info">

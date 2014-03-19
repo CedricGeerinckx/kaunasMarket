@@ -1,6 +1,9 @@
+/*FONTS*/
+/*WEIGHTS*/
+/*COLORS*/
 body {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif; }
+  background-color: #e6e6e6;
+  font-family: "Istok Web", sans-serif; }
 
 .section {
   height: 100%;
@@ -14,9 +17,36 @@ body {
   height: 100%; }
 
 /*Import additional stylesheets*/
-video {
+.videoContainer {
+  overflow: hidden;
+  margin-top: -100px;
   width: 100%;
   height: 100%; }
+  .videoContainer #homeVid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 50%;
+    min-height: 50%;
+    width: auto;
+    height: auto;
+    z-index: -100; }
+  .videoContainer .overlay {
+    margin-top: 100px;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 2; }
+    .videoContainer .overlay h2 {
+      text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+      font-family: "Istok Web", sans-serif;
+      font-size: 50px;
+      color: #e6e6e6; }
+    .videoContainer .overlay p {
+      text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+      color: #e6e6e6;
+      font-size: 35px;
+      font-family: "Istok Web", sans-serif;
+      width: 400px; }
 
 #section1 h1 {
   font-size: 40px;
@@ -124,41 +154,52 @@ video {
   height: 80px;
   width: 100%;
   position: fixed;
-  background-color: #ebebeb;
-  z-index: 99;
-  border-bottom: 1px solid #6b6e76; }
+  background-color: #e6e6e6;
+  z-index: 99; }
   #navigation #logo {
     height: 100%;
     width: 300px;
     background-color: #33241a;
-    color: white;
+    color: #e6e6e6;
     font-size: 30px;
     text-align: center;
     float: left;
     line-height: 80px; }
   #navigation #navlinks {
+    margin-top: 30px;
     list-style: none;
-    margin-right: 50px;
-    padding: 0;
+    margin-right: 70px;
     float: right;
-    height: 100%; }
+    height: 20px; }
     #navigation #navlinks li {
+      font-weight: 700;
+      border-left: 1px solid #65b342;
+      font-family: "Inconsolata";
       display: inline-block;
       height: 100%;
       text-align: center;
       padding: 0 20px;
-      font-size: 30px;
-      line-height: 90px; }
+      font-size: 25px; }
       #navigation #navlinks li a {
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
         text-decoration: none;
         color: #5f4739; }
       #navigation #navlinks li a:hover {
         color: #ad8454; }
+    #navigation #navlinks .first {
+      border: none; }
   #navigation #register {
+    text-decoration: none;
+    position: relative;
     float: right;
-    height: 100%;
-    width: 200px;
-    background-color: #5f4739; }
+    background-color: #4c372a;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inconsolata";
+    color: #e6e6e6;
+    font-weight: 700; }
 
 #gallery_ {
   background-color: black; }

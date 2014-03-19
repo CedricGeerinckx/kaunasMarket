@@ -5,6 +5,8 @@ $(document).ready(function() {
     });
 
     $("#homeVid").get(0).play();
+
+    $(".active li a").css("color", "red");
 });
 
 

@@ -1,4 +1,40 @@
-video{
-	width:100%;
-	height:100%;
+.videoContainer{
+	overflow: hidden;
+	margin-top:-100px;
+	width: 100%;
+	height: 100%;
+
+	#homeVid{
+		position: absolute; 
+		right: 0; 
+		bottom: 0;
+		min-width: 50%; 
+		min-height: 50%;
+		width: auto; 
+		height: auto; 
+		z-index: -100;
+	}
+
+
+	.overlay{
+		margin-top: 100px;
+		margin-left: 200px;
+		position: absolute;
+		z-index: 2;
+		h2{
+			text-shadow: 3px 3px 0px rgba(0,0,0, 0.5);
+			font-family: $istok;
+			font-size:50px;
+			color: $white;
+		}
+
+		p{
+			text-shadow: 3px 3px 0px rgba(0,0,0, 0.5);
+			color:$white;
+			font-size: 35px;
+			font-family: $istok;
+			width:400px;
+		}
+	}
 }
+
