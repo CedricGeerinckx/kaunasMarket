@@ -3,7 +3,7 @@
 /*COLORS*/
 /* line 18, ../sass/main.scss */
 body {
-  background-color: #e6e6e6;
+  background-color: #fff;
   font-family: "Istok Web", sans-serif;
 }
 
@@ -19,11 +19,6 @@ body {
 /* line 30, ../sass/main.scss */
 .section h2 {
   font-size: 40px;
-}
-
-/* line 36, ../sass/main.scss */
-#map {
-  height: 100%;
 }
 
 /*Import additional stylesheets*/

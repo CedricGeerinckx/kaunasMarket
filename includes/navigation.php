@@ -20,6 +20,8 @@
 		<li data-menuanchor="map">
 			<a href="#map2">MAP</a>
 		</li>
-	
+		<li data-menuanchor="contact">
+			<a href="#contact">CONTACT</a>
+		</li>
 	</ul>
 </div>
