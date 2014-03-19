@@ -52,6 +52,7 @@ html, body {
 .slidesContainer {
     float: left;
     position: relative;
+    margin-left: 5%;
 }
 .controlArrow {
     position: absolute;
@@ -66,12 +67,12 @@ html, body {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent #32CD32 transparent transparent;
 }
 .controlArrow.next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #32CD32;
 }
 .scrollable {
     overflow: scroll;

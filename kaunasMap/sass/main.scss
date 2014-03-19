@@ -1,3 +1,51 @@
 html { height: 100% }
-body { height: 100%; margin: 0; padding: 0 }
-#map { height: 100% }
+body { height: 100%; margin: 0; padding: 0; font-family:Arial, Helvetica, sans-serif;}
+#map { 
+	float:left;
+	height:100%;
+	width:100%;
+}
+#controlpanel{
+	position:absolute;
+	right:0;
+	top:0;
+	width:20%;
+	font-size: 20px;
+	padding:5px;
+	background:rgb(156, 114, 60); /* Fall-back for browsers that don't support rgba */
+    background:rgba(156, 114, 60, .7);
+    border:1px solid #4c372a;
+    margin-top:10px;
+    margin-right:10px;
+	box-sizing:border-box;
+	color:#4c372a;
+	font-variant:small-caps;
+	h2{
+		text-align:center;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	#checkboxes{
+		margin:0 0 10px 10px;
+		input[type="checkbox"] {
+	    	display:none;
+		}
+		input[type="checkbox"] + label span {
+		    display:inline-block;
+		    width:35px;
+		    height:35px;
+		    line-height:30px;
+		    vertical-align:middle;
+		    background:url('checkbox.png') center no-repeat;
+		    cursor:pointer;
+		}
+		input[type="checkbox"]:checked + label span {
+		    background:url('checkbox_checked.png') center no-repeat;
+		}
+	}
+}
+.infowindow{
+	min-width:500px;
+	min-height:500px;
+	text-align:center;
+}
