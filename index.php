@@ -103,7 +103,7 @@
 	  	</div>
 	</div>
 	<div class="section" id="map_">
-		<div id="map">
+		<div id="mapDiv">
 		</div>
 		<div id="controlpanel">
 			<h2>Select category</h2>

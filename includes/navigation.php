@@ -18,7 +18,7 @@
 			<a href="#gallery">GALLERY</a>
 		</li>
 		<li data-menuanchor="map">
-			<a href="#map2">MAP</a>
+			<a href="#map">MAP</a>
 		</li>
 		<li data-menuanchor="contact">
 			<a href="#contact">CONTACT</a>
