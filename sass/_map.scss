@@ -1,5 +1,7 @@
 #map { 
-	display:block;
+	float:left;
+	height:100%;
+	width:100%;
 }
 #controlpanel{
 	position:absolute;
@@ -9,7 +11,7 @@
 	font-size: 20px;
 	padding:5px;
 	background:rgb(156, 114, 60); /* Fall-back for browsers that don't support rgba */
-    background:rgba(156, 114, 60, .5);
+    background:rgba(156, 114, 60, .7);
     border:1px solid #4c372a;
     margin-top:10px;
     margin-right:10px;
@@ -17,8 +19,9 @@
 	color:#4c372a;
 	font-variant:small-caps;
 	h2{
-		font-size: 30px;
 		text-align:center;
+		margin-top:10px;
+		margin-bottom:10px;
 	}
 	#checkboxes{
 		margin:0 0 10px 10px;
@@ -39,7 +42,7 @@
 		}
 	}
 }
-#infowindow{
+.infowindow{
 	min-width:500px;
 	min-height:500px;
 	text-align:center;
