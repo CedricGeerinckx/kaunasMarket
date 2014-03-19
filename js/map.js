@@ -8,8 +8,9 @@ function initialize() {
       streetViewControl: false
   };
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
   //call function to create markers
+  
+
   setMarkers(map, vendors);
   infowindow = new google.maps.InfoWindow({
     content: "loading..."
