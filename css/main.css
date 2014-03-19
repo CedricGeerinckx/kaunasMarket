@@ -1,8 +1,9 @@
 /*FONTS*/
 /*WEIGHTS*/
 /*COLORS*/
+/*HEADERHEIGHT*/
 body {
-  background-color: #e6e6e6;
+  background-color: #fff;
   font-family: "Istok Web", sans-serif; }
 
 .section {
@@ -12,9 +13,6 @@ body {
     font-size: 50px; }
   .section h2 {
     font-size: 40px; }
-
-#map {
-  height: 100%; }
 
 /*Import additional stylesheets*/
 .videoContainer {
@@ -72,15 +70,15 @@ body {
 
 #map {
   float: left;
-  height: 100%;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
 
 #controlpanel {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 80px;
   width: 20%;
-  font-size: 20px;
+  font-size: 25px;
   padding: 5px;
   background: #9c723c;
   /* Fall-back for browsers that don't support rgba */
@@ -92,6 +90,7 @@ body {
   color: #4c372a;
   font-variant: small-caps; }
   #controlpanel h2 {
+    font-size: 30px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px; }

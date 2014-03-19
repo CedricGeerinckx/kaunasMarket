@@ -14,9 +14,12 @@ $lightbrown: #4c372a;
 $lightestbrown: #9c723c;
 $green: #65b342;
 
+/*HEADERHEIGHT*/
+$headerheight: 80px;
+
 
 body{
-	background-color: $white;
+	background-color:#fff;
 	font-family: $istok;
 
 }
@@ -33,11 +36,7 @@ body{
 
 }
 
-#map {
-	height: 100%; 
-}
-
 /*Import additional stylesheets*/
 
-@import '_home', '_info', '_history', '_map', '_navigation', '_gallery';
+@import '_home', '_info', '_history', '_map', '_navigation', '_gallery', '_contact';
 

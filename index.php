@@ -116,6 +116,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="section" id="contact_">
+		<h1>Contact</h1>
+	</div>
 </body>
 
 </html>
