@@ -5,7 +5,6 @@ $(document).ready(function() {
     	menu: '#navlinks'
     });
     $("#homeVid").get(0).play();
-    $("#navlinks").css("marginRight", $("#register").width()+50);
 });
 
 

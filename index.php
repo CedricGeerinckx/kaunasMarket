@@ -6,6 +6,10 @@
 <meta description="">
 <meta keywords="kaziuko muge, kaziuko, muge, kaunas, kaunas muge, kaziuko kaunas">
 
+<link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
 <link  href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
 <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
@@ -30,9 +34,29 @@
 	?>
 
 	<div class="section active" id="home_">
+<<<<<<< HEAD
+=======
+
+	<div class="videoContainer">
+		<h1>Home</h1>
+
+>>>>>>> FETCH_HEAD
 		<video id="homeVid" loop>
-			<source src="vid/ip_timelapse.mp4" type="video/mp4"> 
+			<source src="vid/vid.webm" type="video/webm">
+			<source src="vid/vid.mp4" type="video/mp4">
+			<source src="vid/vid.ogg" type="video/ogg">
+
+
 		</video>
+
+		<div class="overlay">
+			<h2>KAUNAS KAZIUKO MUGE</h2>
+			<p>
+				A bridge between 
+				the countryside and the city.
+			</p>
+		</div>
+	</div>
 	</div>
 	<div class="section" id="section1">
 		<div class="slide">
