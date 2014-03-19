@@ -8,14 +8,14 @@
 html, body {
     margin: 0;
     padding: 0;
-	overflow:hidden;
+    overflow:hidden;
 }
 #superContainer {
     height: 100%;
     position: relative;
-	
-	/* Touch detection for Windows 8 */
-	-ms-touch-action: none; 
+    
+    /* Touch detection for Windows 8 */
+    -ms-touch-action: none; 
 }
 .section {
     position: relative;
@@ -67,12 +67,12 @@ html, body {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #32CD32 transparent transparent;
+    border-color: transparent #65b342 transparent transparent;
 }
 .controlArrow.next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #32CD32;
+    border-color: transparent transparent transparent #65b342;
 }
 .scrollable {
     overflow: scroll;

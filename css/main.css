@@ -50,12 +50,14 @@ body {
   width: 100%; }
   #section1 .fullPage-slidesNav ul {
     text-align: center;
-    list-style: none; }
+    list-style: none;
+    font-family: "Istok Web", sans-serif; }
     #section1 .fullPage-slidesNav ul li {
       display: inline-block;
       margin-bottom: 40px; }
       #section1 .fullPage-slidesNav ul li a {
         text-decoration: none;
+        font-family: "Istok Web", sans-serif;
         color: #5f4739;
         font-size: 25px; }
       #section1 .fullPage-slidesNav ul li a.active {
@@ -64,11 +66,51 @@ body {
         color: #ad8454; }
 #section1 h1 {
   font-size: 40px;
-  color: #32CD32;
+  color: #65b342;
   margin-bottom: 10px;
-  position: relative; }
+  position: relative;
+  font-family: "Istok Web", sans-serif; }
+#section1 .fb-news-box {
+  height: 700px;
+  width: 13%;
+  position: absolute;
+  margin-left: 4%;
+  margin-top: -7%;
+  font-family: "Istok Web", sans-serif; }
+#section1 .other-news-box {
+  height: 700px;
+  width: 13%;
+  position: absolute;
+  margin-left: 17%;
+  margin-top: -7%;
+  text-align: justify;
+  font-family: "Istok Web", sans-serif; }
+#section1 .big-container-box {
+  height: 700px;
+  width: 25%;
+  position: absolute;
+  margin-left: 4%;
+  margin-top: -7%;
+  text-align: justify;
+  font-family: "Istok Web", sans-serif; }
+  #section1 .big-container-box .infotext {
+    height: 400px;
+    width: 300px;
+    position: absolute; }
+  #section1 .big-container-box #infotext1 {
+    margin-left: 10%;
+    margin-top: 7%; }
+  #section1 .big-container-box #infotext2 {
+    margin-left: 35%;
+    margin-top: 1%; }
+  #section1 .big-container-box #infotext3 {
+    margin-left: 40%;
+    margin-top: 20%; }
+  #section1 .big-container-box #infotext4 {
+    margin-left: 65%;
+    margin-top: 10%; }
 
-#map {
+#mapDiv {
   float: left;
   width: 100%;
   height: 100%; }

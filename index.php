@@ -53,32 +53,74 @@
 	</div>
 	</div>
 	<div class="section" id="section1">
-		<div class="slide">
-			<div class="intro">
-				<h1>Information</h1>
-				<p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
+			<div class="slide">
+				<div class="intro">
+					<h1>Information</h1>
+					<div class="big-container-box">
+							<div class="infotext" id="infotext1">
+								<h1>WHAT?</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ligula quis velit ultricies fringilla nec vel mi. Cras mattis, lorem id dictum suscipit, sapien odio elementum neque, sit amet porttitor enim tortor vitae massa. Quisque metus nisl, tempor nec porta sit amet, placerat ut augue. Duis rutrum tincidunt sodales. Nam quis ultrices lacus. Integer ultrices iaculis eros nec dapibus. In at dolor magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+								</p>
+							</div>
+							<div class="infotext" id="infotext2">
+								<h1>WHEN?</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ligula quis velit ultricies fringilla nec vel mi. Cras mattis, lorem id dictum suscipit, sapien odio elementum neque, sit amet porttitor enim tortor vitae massa.
+								</p>
+
+							</div>
+							<div class="infotext" id="infotext3">
+								<h1>WHERE?</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ligula quis velit ultricies fringilla nec vel mi. Cras mattis, lorem id dictum suscipit, sapien odio elementum neque, sit amet porttitor enim tortor vitae massa.
+								</p>
+
+							</div>
+							<div class="infotext" id="infotext4">
+								<h1>WHO?</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ligula quis velit ultricies fringilla nec vel mi. Cras mattis, lorem id dictum suscipit, sapien odio elementum neque, sit amet porttitor enim tortor vitae massa. Quisque metus nisl, tempor nec porta sit amet, placerat ut augue. Duis rutrum tincidunt sodales. Nam quis ultrices lacus. Integer ultrices iaculis eros nec dapibus. In at dolor magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+								</p>
+
+							</div>
+					</div>	
+				</div>
+			</div>
+		    <div class="slide">
+				<div class="intro">
+					<h1>News</h1>
+					<div class="fb-news-box">
+						<h1>Facebook news</h1>
+						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="700" data-height="600" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>		
+					</div>
+					<div class="other-news-box">
+						<h1>Other news</h1>
+						<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ligula quis velit ultricies fringilla nec vel mi. Cras mattis, lorem id dictum suscipit, sapien odio elementum neque, sit amet porttitor enim tortor vitae massa. Quisque metus nisl, tempor nec porta sit amet, placerat ut augue. Duis rutrum tincidunt sodales. Nam quis ultrices lacus. Integer ultrices iaculis eros nec dapibus. In at dolor magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam justo lacus, vehicula quis luctus non, tempus non sem. Ut dignissim tincidunt luctus. Nam ut dapibus lorem, eget feugiat turpis. Etiam a vulputate quam. Sed ante magna, convallis nec urna vitae, scelerisque commodo urna.
+	Morbi bibendum ullamcorper augue. Integer tempor nunc vitae tellus facilisis eleifend. Sed pretium pellentesque nisl, vel facilisis magna vulputate sed. Sed ac sagittis orci, non sagittis libero. Sed sit amet ante eget enim cursus euismod in nec elit. Etiam viverra purus eget nulla congue, sit amet consectetur odio bibendum. Nullam vel quam sed ante consequat tempor vitae non turpis. Nam congue turpis eget mauris placerat imperdiet dignissim at augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis purus fermentum, tincidunt arcu et, congue urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque nec ipsum tempus, laoreet nisi sagittis, sodales leo. Integer sodales convallis varius. Integer tincidunt leo et auctor cursus. Fusce et leo varius, euismod orci sit amet, placerat orci. Fusce egestas viverra est non vehicula.
+	Nulla tincidunt adipiscing condimentum. Maecenas vehicula felis dui, nec vulputate neque accumsan et. Integer pulvinar venenatis posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper mi sed risus pulvinar dignissim. Duis neque augue, laoreet a tincidunt id, suscipit eget purus. Ut lacus nisi, dapibus quis nulla sit amet, 
+						</p>
+					</div>
+				</div>
+			</div>
+		    <div class="slide">
+				<div class="intro">
+					<h1>History</h1>
+					<div class="big-container-box">
+					<h1> Kaziuko Muge</h1>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ligula quis velit ultricies fringilla nec vel mi. Cras mattis, lorem id dictum suscipit, sapien odio elementum neque, sit amet porttitor enim tortor vitae massa. Quisque metus nisl, tempor nec porta sit amet, placerat ut augue. Duis rutrum tincidunt sodales. Nam quis ultrices lacus. Integer ultrices iaculis eros nec dapibus. In at dolor magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam justo lacus, vehicula quis luctus non, tempus non sem. Ut dignissim tincidunt luctus. Nam ut dapibus lorem, eget feugiat turpis. Etiam a vulputate quam. Sed ante magna, convallis nec urna vitae, scelerisque commodo urna.
+	Morbi bibendum ullamcorper augue. Integer tempor nunc vitae tellus facilisis eleifend. Sed pretium pellentesque nisl, vel facilisis magna vulputate sed. Sed ac sagittis orci, non sagittis libero. Sed sit amet ante eget enim cursus euismod in nec elit. Etiam viverra purus eget nulla congue, sit amet consectetur odio bibendum. Nullam vel quam sed ante consequat tempor vitae non turpis. Nam congue turpis eget mauris placerat imperdiet dignissim at augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis purus fermentum, tincidunt arcu et, congue urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque nec ipsum tempus, laoreet nisi sagittis, sodales leo. Integer sodales convallis varius. Integer tincidunt leo et auctor cursus. Fusce et leo varius, euismod orci sit amet, placerat orci. Fusce egestas viverra est non vehicula.
+	Nulla tincidunt adipiscing condimentum. Maecenas vehicula felis dui, nec vulputate neque accumsan et. Integer pulvinar venenatis posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper mi sed risus pulvinar dignissim. Duis neque augue, laoreet a tincidunt id, suscipit eget purus. Ut lacus nisi, dapibus quis nulla sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non ligula quis velit ultricies fringilla nec vel mi. Cras mattis, lorem id dictum suscipit, sapien odio elementum neque, sit amet porttitor enim tortor vitae massa. Quisque metus nisl, tempor nec porta sit amet, placerat ut augue. Duis rutrum tincidunt sodales. Nam quis ultrices lacus. Integer ultrices iaculis eros nec dapibus. In at dolor magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam justo lacus, vehicula quis luctus non, tempus non sem. Ut dignissim tincidunt luctus. Nam ut dapibus lorem, eget feugiat turpis. Etiam a vulputate quam. Sed ante magna, convallis nec urna vitae, scelerisque commodo urna.
+	Morbi bibendum ullamcorper augue. Integer tempor nunc vitae tellus facilisis eleifend. Sed pretium pellentesque nisl, vel facilisis magna vulputate sed. Sed ac sagittis orci, non sagittis libero. Sed sit amet ante eget enim cursus euismod in nec elit. Etiam viverra purus eget nulla congue, sit amet consectetur odio bibendum. Nullam vel quam sed ante consequat tempor vitae non turpis. Nam congue turpis eget mauris placerat imperdiet dignissim at augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis purus fermentum, tincidunt arcu et, congue urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque nec ipsum tempus, laoreet nisi sagittis, sodales leo. Integer sodales convallis varius. Integer tincidunt leo et auctor cursus. Fusce et leo varius, euismod orci sit amet, placerat orci. Fusce egestas viverra est non vehicula.
+	Nulla tincidunt adipiscing condimentum. Maecenas vehicula felis dui, nec vulputate neque accumsan et. Integer pulvinar venenatis posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper mi sed risus pulvinar dignissim. Duis neque augue, laoreet a tincidunt id, suscipit eget purus. Ut lacus nisi, dapibus quis nulla sit amet, 
+					</p>
+					</div>
+				</div>
+			</div>
+			<div class="fullPage-slidesNav bottom">
+				<ul>
+					<li><a href="#" class="active">INFORMATION</a></li>
+					<li><a href="#">NEWS</a></li>
+					<li><a href="#">HISTORY</a></li>
+				</ul>
 			</div>
 		</div>
-	    <div class="slide">
-			<div class="intro">
-				<h1>News</h1>
-				<p>Easy to use. Configurable and customizable.</p>
-			</div>
-		</div>
-	    <div class="slide">
-			<div class="intro">
-				<h1>History</h1>
-				<p>Working in modern and old browsers too! IE 8 users don't have the fault of using that horrible browser! Lets give them a chance to see your site in a proper way!</p>
-			</div>
-		</div>
-		<div class="fullPage-slidesNav bottom">
-			<ul>
-				<li><a href="#" class="active">INFORMATION</a></li>
-				<li><a href="#">NEWS</a></li>
-				<li><a href="#">HISTORY</a></li>
-			</ul>
-		</div>
-	</div>
 	<div class="section" id="gallery_">
 		<div class="fotorama" style="height:100%;width:100%" data-width="100%" data-height="100%" align="center" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade">
 			<img class="img" src="img/gallery/img1.jpg">
@@ -103,7 +145,7 @@
 	  	</div>
 	</div>
 	<div class="section" id="map_">
-		<div id="map">
+		<div id="mapDiv">
 		</div>
 		<div id="controlpanel">
 			<h2>Select category</h2>
@@ -119,6 +161,14 @@
 	<div class="section" id="contact_">
 		<h1>Contact</h1>
 	</div>
+
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/da_DK/all.js#xfbml=1&appId=197490163656160";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 
 </html>

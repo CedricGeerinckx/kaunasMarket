@@ -9,7 +9,7 @@ function initialize() {
       panControlOptions: {position: google.maps.ControlPosition.LEFT_CENTER},
       zoomControlOptions: {position: google.maps.ControlPosition.LEFT_CENTER}
   };
-  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  var map = new google.maps.Map(document.getElementById("mapDiv"), mapOptions);
 
   var styles = [
     {
