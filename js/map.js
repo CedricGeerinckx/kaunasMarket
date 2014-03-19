@@ -5,7 +5,9 @@ function initialize() {
       center: new google.maps.LatLng(54.897441, 23.919584),
       zoom: 17,
       mapTypeControl: false,
-      streetViewControl: false
+      streetViewControl: false,
+      panControlOptions: {position: google.maps.ControlPosition.LEFT_CENTER},
+      zoomControlOptions: {position: google.maps.ControlPosition.LEFT_CENTER}
   };
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
