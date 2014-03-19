@@ -14,6 +14,10 @@ body {
   height: 100%; }
 
 /*Import additional stylesheets*/
+video {
+  width: 100%;
+  height: 100%; }
+
 #map {
   display: block;
   margin-top: 5%;
@@ -61,4 +65,4 @@ body {
     background-color: #5f4739; }
 
 #gallery_ {
-  background-color: #999; }
+  background-color: black; }

@@ -26,18 +26,29 @@
 	<div class="section active" id="home_">
 
 		<h1>Home</h1>
+		<video id="homeVid" loop>
+			<source src="vid/ip_timelapse.mp4" type="video/mp4"> 
+		</video>
 	</div>
 	<div class="section" id="info_">
 		<h1>Info</h1>
 	</div>
 	<div class="section" id="gallery_">
 	
-	<div class="fotorama" data-width="72%"
-     data-height="800/600" align="center" ;
+	<div class="fotorama" data-width="100%"
+     data-height="100%" align="center" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade" ;
     margin-right: auto >
   <img class="img" src="1.jpg">
   <img class="img" src="2.jpg">
   <img class="img" src="3.jpg">
+  <img class="img" src="4.jpg">
+  <img class="img" src="5.jpg">
+  <img class="img" src="6.jpg">
+  <img class="img" src="7.jpg">
+  <img class="img" src="8.jpg">
+  <img class="img" src="9.jpg">
+  <img class="img" src="23.jpg">
+  <img class="img" src="24.jpg">
   </div>
 	</div>
 	<div class="section" id="map_">
