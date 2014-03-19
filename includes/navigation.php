@@ -8,7 +8,7 @@
 	</div> -->
 
 	<ul id="navlinks">
-		<li data-menuanchor="home" class="first">
+		<li data-menuanchor="home" class="first active">
 			<a href="#home">HOME</a>
 		</li>
 		<li data-menuanchor="info">
