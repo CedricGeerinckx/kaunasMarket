@@ -1,27 +1,42 @@
+/* line 4, ../sass/main.scss */
 body {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+/* line 8, ../sass/main.scss */
 .section {
   height: 100%;
-  width: 100%; }
-  .section h1 {
-    font-size: 50px; }
-  .section h2 {
-    font-size: 40px; }
+  width: 100%;
+}
+/* line 11, ../sass/main.scss */
+.section h1 {
+  font-size: 50px;
+}
+/* line 14, ../sass/main.scss */
+.section h2 {
+  font-size: 40px;
+}
 
+/* line 18, ../sass/main.scss */
 #map {
-  height: 100%; }
+  height: 100%;
+}
 
 /*Import additional stylesheets*/
+/* line 1, ../sass/_home.scss */
 video {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
+/* line 3, ../sass/_info.scss */
 #section1 h1 {
   font-size: 40px;
   color: #32CD32;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
+/* line 10, ../sass/_info.scss */
 #section1 .infotext {
   height: 400px;
   width: 275px;
@@ -29,23 +44,35 @@ video {
   word-wrap: break-all;
   text-align: justify;
   position: absolute;
-  float: left; }
-  #section1 .infotext h1 {
-    font-size: 50px;
-    color: #32CD32;
-    margin: 0; }
+  float: left;
+}
+/* line 21, ../sass/_info.scss */
+#section1 .infotext h1 {
+  font-size: 50px;
+  color: #32CD32;
+  margin: 0;
+}
+/* line 28, ../sass/_info.scss */
 #section1 #text1 {
   margin-left: 7%;
-  margin-top: -350px; }
+  margin-top: -350px;
+}
+/* line 32, ../sass/_info.scss */
 #section1 #text2 {
   margin-left: 12%;
-  margin-top: -450px; }
+  margin-top: -450px;
+}
+/* line 36, ../sass/_info.scss */
 #section1 #text3 {
   margin-left: 13%;
-  margin-top: -50px; }
+  margin-top: -50px;
+}
+/* line 40, ../sass/_info.scss */
 #section1 #text4 {
   margin-left: 18%;
-  margin-top: -180px; }
+  margin-top: -180px;
+}
+/* line 45, ../sass/_info.scss */
 #section1 .infoBox {
   height: 700px;
   width: 16%;
@@ -53,17 +80,25 @@ video {
   margin-top: -500px;
   margin-left: 6.5%;
   border: 1px solid #32CD32;
-  /*TO BE REMOVED */ }
+  /*TO BE REMOVED */
+}
+/* line 55, ../sass/_info.scss */
 #section1 ul {
   list-style-type: none;
   margin: 20px;
   padding: 0;
-  width: 275px; }
+  width: 275px;
+}
+/* line 62, ../sass/_info.scss */
 #section1 li {
   font: 200 30px/1.5 Helvetica, Verdana, sans-serif;
-  border-bottom: 2px solid #ccc; }
+  border-bottom: 2px solid #ccc;
+}
+/* line 67, ../sass/_info.scss */
 #section1 li:last-child {
-  border: none; }
+  border: none;
+}
+/* line 71, ../sass/_info.scss */
 #section1 li a {
   text-decoration: none;
   color: #000;
@@ -73,14 +108,22 @@ video {
   -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
   -o-transition: font-size 0.3s ease, background-color 0.3s ease;
   -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease; }
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+/* line 84, ../sass/_info.scss */
 #section1 li a:hover {
   font-size: 35px;
-  background: #f6f6f6; }
+  background: #f6f6f6;
+}
 
+/* line 1, ../sass/_map.scss */
 #map {
-  display: block; }
+  float: left;
+  height: 100%;
+  width: 100%;
+}
 
+/* line 6, ../sass/_map.scss */
 #controlpanel {
   position: absolute;
   right: 0;
@@ -90,75 +133,105 @@ video {
   padding: 5px;
   background: #9c723c;
   /* Fall-back for browsers that don't support rgba */
-  background: rgba(156, 114, 60, 0.5);
+  background: rgba(156, 114, 60, 0.7);
   border: 1px solid #4c372a;
   margin-top: 10px;
   margin-right: 10px;
   box-sizing: border-box;
   color: #4c372a;
-  font-variant: small-caps; }
-  #controlpanel h2 {
-    font-size: 30px;
-    text-align: center; }
-  #controlpanel #checkboxes {
-    margin: 0 0 10px 10px; }
-    #controlpanel #checkboxes input[type="checkbox"] {
-      display: none; }
-    #controlpanel #checkboxes input[type="checkbox"] + label span {
-      display: inline-block;
-      width: 35px;
-      height: 35px;
-      line-height: 30px;
-      vertical-align: middle;
-      background: url("../img/checkbox.png") center no-repeat;
-      cursor: pointer; }
-    #controlpanel #checkboxes input[type="checkbox"]:checked + label span {
-      background: url("../img/checkbox_checked.png") center no-repeat; }
+  font-variant: small-caps;
+}
+/* line 21, ../sass/_map.scss */
+#controlpanel h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 26, ../sass/_map.scss */
+#controlpanel #checkboxes {
+  margin: 0 0 10px 10px;
+}
+/* line 28, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"] {
+  display: none;
+}
+/* line 31, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 30px;
+  vertical-align: middle;
+  background: url("../img/checkbox.png") center no-repeat;
+  cursor: pointer;
+}
+/* line 40, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"]:checked + label span {
+  background: url("../img/checkbox_checked.png") center no-repeat;
+}
 
-#infowindow {
+/* line 45, ../sass/_map.scss */
+.infowindow {
   min-width: 500px;
   min-height: 500px;
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 1, ../sass/_navigation.scss */
 #navigation {
   height: 80px;
   width: 100%;
   position: fixed;
   background-color: #ebebeb;
   z-index: 99;
-  border-bottom: 1px solid #6b6e76; }
-  #navigation #logo {
-    height: 100%;
-    width: 300px;
-    background-color: #33241a;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    float: left;
-    line-height: 80px; }
-  #navigation #navlinks {
-    list-style: none;
-    margin-right: 50px;
-    padding: 0;
-    float: right;
-    height: 100%; }
-    #navigation #navlinks li {
-      display: inline-block;
-      height: 100%;
-      text-align: center;
-      padding: 0 20px;
-      font-size: 30px;
-      line-height: 90px; }
-      #navigation #navlinks li a {
-        text-decoration: none;
-        color: #5f4739; }
-      #navigation #navlinks li a:hover {
-        color: #ad8454; }
-  #navigation #register {
-    float: right;
-    height: 100%;
-    width: 200px;
-    background-color: #5f4739; }
+  border-bottom: 1px solid #6b6e76;
+}
+/* line 8, ../sass/_navigation.scss */
+#navigation #logo {
+  height: 100%;
+  width: 300px;
+  background-color: #33241a;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  line-height: 80px;
+}
+/* line 18, ../sass/_navigation.scss */
+#navigation #navlinks {
+  list-style: none;
+  margin-right: 50px;
+  padding: 0;
+  float: right;
+  height: 100%;
+}
+/* line 24, ../sass/_navigation.scss */
+#navigation #navlinks li {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 30px;
+  line-height: 90px;
+}
+/* line 31, ../sass/_navigation.scss */
+#navigation #navlinks li a {
+  text-decoration: none;
+  color: #5f4739;
+}
+/* line 35, ../sass/_navigation.scss */
+#navigation #navlinks li a:hover {
+  color: #ad8454;
+}
+/* line 40, ../sass/_navigation.scss */
+#navigation #register {
+  float: right;
+  height: 100%;
+  width: 200px;
+  background-color: #5f4739;
+}
 
+/* line 1, ../sass/_gallery.scss */
 #gallery_ {
-  background-color: black; }
+  background-color: black;
+}
