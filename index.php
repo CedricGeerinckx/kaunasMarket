@@ -2,6 +2,10 @@
 <html>
 <head>
 <title>The Kaunas Market</title>
+
+<meta description="">
+<meta keywords="kaziuko muge, kaziuko, muge, kaunas, kaunas muge, kaziuko kaunas">
+
 <link  href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -29,8 +33,104 @@
 
 		<h1>Home</h1>
 	</div>
-	<div class="section" id="info_">
-		<h1>Info</h1>
+	<div class="section" id="section1">
+		<div class ="slideContainer">
+			<div class="wrapper">
+			<div class="slide" id="slide1">
+				<h1>Information menu:</h1>
+				<ul>
+					<li>
+						<a href="#info">Information</a>
+					</li>
+					<li>
+						<a href="#info/1">History</a>
+					</li>
+					<li>
+						<a href="#info/2">Vendor of the day</a>
+					</li>
+					<li>
+						<a href="#info/3">Slide4</a>
+					</li></ul>
+				<div class="infotext" id="text1">
+					<h1>WHAT?</h1>
+						<p> We are planning to do at really structured and well-designed map of the fair, that is used by the visitors and the vendors. When the vendors register online they see a map with all the spot numbers and they pick a spot. When the fair starts, the visitors get access to the same map with all the different stands placed on the map. We are planning to make a really structured and well-designed map of the fair that is used for the visitors and the vendors. When the vendors register online, they see a map
+						</p></div>
+				<div class="infotext" id="text2">
+					<h1>WHEN?</h1>
+						<p>We are planning to do at really structured and well-designed map of the fair, that is used by the visitors and the vendors. When the vendors register online they see a map with all the spot numbers and they pick a spot. When the fair starts, the visitors get access to the same map with all
+						</p></div>
+				<div class="infotext" id="text3">
+					<h1>WHERE?</h1>
+						<p>We are planning to do at really structured and well-designed map of the fair, that is used by the visitors and the vendors. When the vendors register online they see a map with all the spot numbers and they pick a spot. When the fair starts, the visitors get access to the same map with all
+						</p></div>
+				<div class="infotext" id="text4">
+					<h1>WHO?</h1>
+						<p>We are planning to do at really structured and well-designed map of the fair, that is used by the visitors and the vendors. When the vendors register online they see a map with all the spot numbers and they pick a spot. When the fair starts, the visitors get access to the same map with all
+						</p></div>
+
+			</div>
+			<div class="slide" id="slide2">
+				<h1>Information menu:</h1>
+				<ul>
+					<li>
+						<a href="#info">Information</a>
+					</li>
+					<li>
+						<a href="#info/1">History</a>
+					</li>
+					<li>
+						<a href="#info/2">Vendor of the day</a>
+					</li>
+					<li>
+						<a href="#info/3">Slide4</a>
+					</li></ul>		
+				<div class="infoBox">
+					<h1>History</h1>
+					<p> Some random paragraph</p>
+			    </div>
+			</div>
+			<div class="slide" id="slide3">
+				<h1>Information menu:</h1>
+				<ul>
+					<li>
+						<a href="#info">Information</a>
+					</li>
+					<li>
+						<a href="#info/1">History</a>
+					</li>
+					<li>
+						<a href="#info/2">Vendor of the day</a>
+					</li>
+					<li>
+						<a href="#info/3">Slide4</a>
+					</li></ul>				
+					<div class="infoBox">
+					<h1>Slide 3</h1>
+					<p> Some random paragraph</p>
+			    </div>
+			</div>
+			<div class="slide" id="slide4">
+				<h1>Information menu:</h1>
+				<ul>
+					<li>
+						<a href="#info">Information</a>
+					</li>
+					<li>
+						<a href="#info/1">History</a>
+					</li>
+					<li>
+						<a href="#info/2">Vendor of the day</a>
+					</li>
+					<li>
+						<a href="#info/3">Slide4</a>
+					</li></ul>		
+					<div class="infoBox">
+					<h1>Slide 4</h1>
+					<p> Some random paragraph</p>
+			    </div>
+			</div>
+			</div>
+	    </div>
 	</div>
 	<div class="section" id="gallery_">
 	
