@@ -114,10 +114,10 @@ body {
   width: 20%;
   font-size: 25px;
   padding: 5px;
-  background: #9c723c;
+  background: #e6e6e6;
   /* Fall-back for browsers that don't support rgba */
-  background: rgba(156, 114, 60, 0.7);
-  border: 1px solid #4c372a;
+  background: rgba(230, 230, 230, 0.7);
+  border: 1px solid #261b13;
   margin-top: 10px;
   margin-right: 10px;
   box-sizing: border-box;
@@ -130,16 +130,17 @@ body {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #65b342;
 }
-/* line 27, ../sass/_map.scss */
+/* line 28, ../sass/_map.scss */
 #controlpanel #checkboxes {
   margin: 0 0 10px 10px;
 }
-/* line 29, ../sass/_map.scss */
+/* line 30, ../sass/_map.scss */
 #controlpanel #checkboxes input[type="checkbox"] {
   display: none;
 }
-/* line 32, ../sass/_map.scss */
+/* line 33, ../sass/_map.scss */
 #controlpanel #checkboxes input[type="checkbox"] + label span {
   display: inline-block;
   width: 35px;
@@ -149,12 +150,12 @@ body {
   background: url("../img/checkbox.png") center no-repeat;
   cursor: pointer;
 }
-/* line 41, ../sass/_map.scss */
+/* line 42, ../sass/_map.scss */
 #controlpanel #checkboxes input[type="checkbox"]:checked + label span {
   background: url("../img/checkbox_checked.png") center no-repeat;
 }
 
-/* line 46, ../sass/_map.scss */
+/* line 47, ../sass/_map.scss */
 .infowindow {
   min-width: 500px;
   min-height: 500px;
