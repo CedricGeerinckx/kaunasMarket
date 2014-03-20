@@ -1,5 +1,5 @@
 #navigation{
-	height:80px;
+	height:$headerheight;
 	width:100%;
 	position:fixed;
 	background-color:$white;
@@ -32,7 +32,7 @@
 			height:100%;
 			text-align: center;
 			padding:0 20px;
-			font-size: 25px;
+			font-size: 23px;
 			a{
 				width:300px;
 				padding-left: 20px;
