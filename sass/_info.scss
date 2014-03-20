@@ -1,6 +1,6 @@
 #section1{
 	.fullPage-slidesNav{
-		width:100px;
+		width:180px;
 		margin-top:50%;
 		margin-left:80px;
 		ul{
@@ -55,13 +55,11 @@
 	}
 
 	.big-container-box{
-		position: relative;
 		width:80%;
-		max-height:70%;
 		text-align: justify;
 		font-family: $istok;
-		box-sizing:border-box;
-		padding-bottom: 30px;
+		padding-bottom:60px;
+		padding-top:10px;
 	}
 	
 }

@@ -61,6 +61,7 @@ html, body {
     height: 0;
     border-style: solid;
     margin-top: -38px;
+    z-index: 5;
 }
 .controlArrow.prev {
     left: 15px;

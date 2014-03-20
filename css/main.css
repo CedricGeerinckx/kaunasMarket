@@ -70,18 +70,18 @@ body {
 }
 
 /*Import additional stylesheets*/
-/* line 1, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 1, ../sass/_home.scss */
 #home_ {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 5, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 5, ../sass/_home.scss */
 .videoContainer {
   overflow: hidden;
   margin-top: -100px;
   width: 100%;
 }
-/* line 10, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 10, ../sass/_home.scss */
 .videoContainer #homeVid {
   position: absolute;
   right: 0;
@@ -92,27 +92,27 @@ body {
   height: auto;
   z-index: -100;
 }
-/* line 22, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 22, ../sass/_home.scss */
 .videoContainer .overlay {
   margin-top: -150px;
   margin-left: 120px;
   position: absolute;
   z-index: 2;
 }
-/* line 27, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 27, ../sass/_home.scss */
 .videoContainer .overlay h2 {
   font-family: "Oswald", sans-serif;
   font-size: 65px;
   color: #e6e6e6;
 }
-/* line 33, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 33, ../sass/_home.scss */
 .videoContainer .overlay p {
   color: #e6e6e6;
   font-size: 35px;
   font-family: "Open Sans", sans-serif;
   width: 400px;
 }
-/* line 41, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 41, ../sass/_home.scss */
 .videoContainer .register {
   position: absolute;
   bottom: 25px;
@@ -125,7 +125,7 @@ body {
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
 }
-/* line 53, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 53, ../sass/_home.scss */
 .videoContainer .register p {
   line-height: 18px;
   font-size: 12px;
@@ -136,57 +136,57 @@ body {
   text-align: center;
   font-family: "Oswald", sans-serif;
 }
-/* line 55, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 55, ../sass/_home.scss */
 .videoContainer .register p span {
   font-size: 30px;
 }
-/* line 67, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_home.scss */
+/* line 67, ../sass/_home.scss */
 .videoContainer .register:hover {
   bottom: 30px;
   transition: bottom 0.3s;
 }
 
-/* line 2, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 2, ../sass/_info.scss */
 #section1 .fullPage-slidesNav {
-  width: 100px;
+  width: 180px;
   margin-top: 50%;
   margin-left: 80px;
 }
-/* line 6, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 6, ../sass/_info.scss */
 #section1 .fullPage-slidesNav ul {
   text-align: left;
   list-style: none;
   font-family: "Open Sans", sans-serif;
 }
-/* line 10, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 10, ../sass/_info.scss */
 #section1 .fullPage-slidesNav ul li {
   display: block;
 }
-/* line 12, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 12, ../sass/_info.scss */
 #section1 .fullPage-slidesNav ul li a {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   color: #5f4739;
   font-size: 25px;
 }
-/* line 19, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 19, ../sass/_info.scss */
 #section1 .fullPage-slidesNav ul li a.active {
   color: #ad8454;
 }
-/* line 22, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 22, ../sass/_info.scss */
 #section1 .fullPage-slidesNav ul li a:hover {
   color: #ad8454;
 }
-/* line 29, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 29, ../sass/_info.scss */
 #section1 a {
   text-decoration: none;
   color: #5f4739;
 }
-/* line 33, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 33, ../sass/_info.scss */
 #section1 a:hover {
   color: #ad8454;
 }
-/* line 36, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 36, ../sass/_info.scss */
 #section1 h1 {
   font-size: 40px;
   color: #65b342;
@@ -195,38 +195,36 @@ body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
-/* line 45, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 45, ../sass/_info.scss */
 #section1 .fb-news-box {
   clear: both;
   margin-left: auto;
   margin-right: auto;
   font-family: "Open Sans", sans-serif;
 }
-/* line 51, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 51, ../sass/_info.scss */
 #section1 .intro {
   width: 80%;
   height: 80%;
   margin-left: 300px;
 }
-/* line 57, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_info.scss */
+/* line 57, ../sass/_info.scss */
 #section1 .big-container-box {
-  position: relative;
   width: 80%;
-  max-height: 70%;
   text-align: justify;
   font-family: "Open Sans", sans-serif;
-  box-sizing: border-box;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
+  padding-top: 10px;
 }
 
-/* line 1, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_map.scss */
+/* line 1, ../sass/_map.scss */
 #mapDiv {
   float: left;
   width: 100%;
   height: 100%;
 }
 
-/* line 6, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_map.scss */
+/* line 6, ../sass/_map.scss */
 #controlpanel {
   position: absolute;
   right: 0;
@@ -243,7 +241,7 @@ body {
   color: #261b13;
   font-variant: small-caps;
 }
-/* line 20, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_map.scss */
+/* line 20, ../sass/_map.scss */
 #controlpanel h2 {
   padding-bottom: 10px;
   border-bottom: 1px solid black;
@@ -254,15 +252,15 @@ body {
   margin-bottom: 10px;
   color: #261b13;
 }
-/* line 30, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_map.scss */
+/* line 30, ../sass/_map.scss */
 #controlpanel #checkboxes {
   margin: 0 0 10px 10px;
 }
-/* line 32, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_map.scss */
+/* line 32, ../sass/_map.scss */
 #controlpanel #checkboxes input[type="checkbox"] {
   display: none;
 }
-/* line 35, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_map.scss */
+/* line 35, ../sass/_map.scss */
 #controlpanel #checkboxes input[type="checkbox"] + label span {
   display: inline-block;
   width: 20px;
@@ -272,12 +270,12 @@ body {
   background: url("../img/checkbox.png") center no-repeat;
   cursor: pointer;
 }
-/* line 44, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_map.scss */
+/* line 44, ../sass/_map.scss */
 #controlpanel #checkboxes input[type="checkbox"]:checked + label span {
   background: url("../img/checkbox_checked.png") center no-repeat;
 }
 
-/* line 49, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_map.scss */
+/* line 49, ../sass/_map.scss */
 .infowindow {
   min-width: 100px;
   min-height: 100px;
@@ -286,7 +284,7 @@ body {
   margin: 30px;
 }
 
-/* line 1, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 1, ../sass/_navigation.scss */
 #navigation {
   height: 80px;
   width: 100%;
@@ -298,7 +296,7 @@ body {
   -moz-box-shadow: 0 1px 1px -1px #261b13;
   box-shadow: 0 1px 1px -1px #261b13;
 }
-/* line 11, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 11, ../sass/_navigation.scss */
 #navigation #logo {
   height: 150px;
   width: 150px;
@@ -307,7 +305,7 @@ body {
   background-size: cover;
   float: left;
 }
-/* line 19, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 19, ../sass/_navigation.scss */
 #navigation #navlinks {
   margin-top: 30px;
   list-style: none;
@@ -315,7 +313,7 @@ body {
   float: right;
   height: 28px;
 }
-/* line 25, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 25, ../sass/_navigation.scss */
 #navigation #navlinks li {
   font-weight: 700;
   border-left: 1px solid #65b342;
@@ -326,7 +324,7 @@ body {
   padding: 0 20px;
   font-size: 20px;
 }
-/* line 34, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 34, ../sass/_navigation.scss */
 #navigation #navlinks li a {
   width: 300px;
   padding-left: 20px;
@@ -334,20 +332,20 @@ body {
   text-decoration: none;
   color: #4c372a;
 }
-/* line 41, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 41, ../sass/_navigation.scss */
 #navigation #navlinks li a:hover {
   color: #9c723c;
 }
-/* line 45, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 45, ../sass/_navigation.scss */
 #navigation #navlinks li.active a {
   color: #9c723c;
 }
-/* line 48, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 48, ../sass/_navigation.scss */
 #navigation #navlinks .first {
   border: none;
 }
 
-/* line 53, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 53, ../sass/_navigation.scss */
 .alertBox {
   width: 100%;
   position: fixed;
@@ -359,43 +357,43 @@ body {
   background-color: #ffecec;
   border-bottom: 1px solid #f5aca6;
 }
-/* line 63, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 63, ../sass/_navigation.scss */
 .alertBox a {
   text-decoration: none;
   color: #4c372a;
 }
-/* line 67, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_navigation.scss */
+/* line 67, ../sass/_navigation.scss */
 .alertBox a:hover {
   color: #9c723c;
 }
 
-/* line 1, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_gallery.scss */
+/* line 1, ../sass/_gallery.scss */
 #gallery_ {
   height: calc(100% - $headerheight);
   background-color: black;
 }
 
-/* line 2, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 2, ../sass/_contact.scss */
 #contact_ h1 {
   font-family: "Oswald", sans-serif;
   font-size: 65px;
   color: #261b13;
   position: relative;
 }
-/* line 9, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 9, ../sass/_contact.scss */
 #contact_ .contactform {
   height: 600px;
   width: 60%;
   background-color: #ff9900;
 }
-/* line 15, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 15, ../sass/_contact.scss */
 #contact_ #contactform {
   margin-left: 10%;
   margin-right: auto;
   float: left;
   width: 40%;
 }
-/* line 21, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 21, ../sass/_contact.scss */
 #contact_ #contactform input[type="text"], #contact_ #contactform textarea {
   width: 100%;
   height: auto;
@@ -409,7 +407,7 @@ body {
   color: #e6e6e6;
   resize: none;
 }
-/* line 34, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 34, ../sass/_contact.scss */
 #contact_ #contactform input[type="submit"] {
   width: 200px;
   float: left;
@@ -422,12 +420,12 @@ body {
   font-weight: 300;
   cursor: pointer;
 }
-/* line 46, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 46, ../sass/_contact.scss */
 #contact_ #contactform input[type="submit"]:hover {
   background: #9c723c;
   color: #e6e6e6;
 }
-/* line 52, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 52, ../sass/_contact.scss */
 #contact_ #contactinfo {
   float: left;
   margin-left: 5%;
@@ -435,13 +433,13 @@ body {
   padding-left: 15px;
   text-align: left;
 }
-/* line 61, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 61, ../sass/_contact.scss */
 #contact_ #contactinfo h1 {
   margin-top: 15%;
   margin-left: 0%;
   margin-bottom: 35px;
 }
-/* line 66, /Applications/XAMPP/xamppfiles/htdocs/kaunasMarket/sass/_contact.scss */
+/* line 66, ../sass/_contact.scss */
 #contact_ #contactinfo h2 {
   font-family: "Oswald", sans-serif;
   font-size: 30px;

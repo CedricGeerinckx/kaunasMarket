@@ -95,16 +95,8 @@ session_start();
 					if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
 						echo "<button class='editButton' value='history'></button>";
 					}
-					
 					$text = getPage("history");
 					while($content=$text->fetch()) {
-						/*
-						if(strlen($content["content"])>2000){
-							echo substr($content["content"],0,2000)."...<p><a href='' id='readMoreHistory'>Read more...</a></p>";
-						}else{
-							echo $content["content"];
-						}
-						*/
 						echo $content["content"];
 					}
 					?>
