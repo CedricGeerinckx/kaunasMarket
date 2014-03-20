@@ -1,6 +1,6 @@
 <?php
 $dbhost  = "localhost";
-$dbname  = "kaunasmarket";
+$dbname  = "mm_ip";
 $dbuser  = "root";
 $dbpass  = "";
 

@@ -7,16 +7,16 @@ body {
   font-family: "Istok Web", sans-serif;
 }
 
-/* line 24, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
 .section {
   height: 100%;
   width: 100%;
 }
-/* line 27, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 .section h1 {
   font-size: 50px;
 }
-/* line 30, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 .section h2 {
   font-size: 40px;
 }
@@ -169,11 +169,12 @@ body {
   position: fixed;
   background-color: #e6e6e6;
   z-index: 99;
+  display: block;
   -webkit-box-shadow: 0 1px 1px -1px #261b13;
   -moz-box-shadow: 0 1px 1px -1px #261b13;
   box-shadow: 0 1px 1px -1px #261b13;
 }
-/* line 10, ../sass/_navigation.scss */
+/* line 11, ../sass/_navigation.scss */
 #navigation #logo {
   height: 100%;
   width: 300px;
@@ -184,7 +185,7 @@ body {
   float: left;
   line-height: 80px;
 }
-/* line 20, ../sass/_navigation.scss */
+/* line 21, ../sass/_navigation.scss */
 #navigation #navlinks {
   margin-top: 30px;
   list-style: none;
@@ -192,7 +193,7 @@ body {
   float: right;
   height: 20px;
 }
-/* line 26, ../sass/_navigation.scss */
+/* line 27, ../sass/_navigation.scss */
 #navigation #navlinks li {
   font-weight: 700;
   border-left: 1px solid #65b342;
@@ -203,7 +204,7 @@ body {
   padding: 0 20px;
   font-size: 25px;
 }
-/* line 35, ../sass/_navigation.scss */
+/* line 36, ../sass/_navigation.scss */
 #navigation #navlinks li a {
   width: 300px;
   padding-left: 20px;
@@ -211,15 +212,15 @@ body {
   text-decoration: none;
   color: #4c372a;
 }
-/* line 42, ../sass/_navigation.scss */
+/* line 43, ../sass/_navigation.scss */
 #navigation #navlinks li a:hover {
   color: #9c723c;
 }
-/* line 46, ../sass/_navigation.scss */
+/* line 47, ../sass/_navigation.scss */
 #navigation #navlinks li.active a {
   color: #9c723c;
 }
-/* line 49, ../sass/_navigation.scss */
+/* line 50, ../sass/_navigation.scss */
 #navigation #navlinks .first {
   border: none;
 }

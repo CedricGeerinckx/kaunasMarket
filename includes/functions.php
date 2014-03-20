@@ -35,4 +35,12 @@ function login($user, $password){
     }
     return $status;
 }
+
+function getGallery(){
+    include("db_connect.php");
+    $sql="SELECT * FROM image WHERE type = 'gallery';";
+    $result = $conn->prepare($sql);
+    $result->execute();
+    return $result;
+}
 ?>
