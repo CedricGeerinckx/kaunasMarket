@@ -12,7 +12,7 @@ function login($user, $password){
         $status = true;
     }
     if($status){
-        $result = $conn->prepare("SELECT * FROM users WHERE username= ? AND password= ?");
+        $result = $conn->prepare("SELECT * FROM admin WHERE username= ? AND pass= ?");
         $result->bindParam(1, $user);
         $result->bindParam(2, $password);
         $result->execute();
@@ -40,6 +40,15 @@ function getGallery(){
     include("db_connect.php");
     $sql="SELECT * FROM image WHERE type = 'gallery';";
     $result = $conn->prepare($sql);
+    $result->execute();
+    return $result;
+}
+function getPage($page){
+    $name = $page;
+    include("db_connect.php");
+    $sql="SELECT * FROM pages WHERE name=?;";
+    $result = $conn->prepare($sql);
+    $result->bindParam(1, $name);
     $result->execute();
     return $result;
 }

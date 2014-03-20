@@ -5,8 +5,7 @@
 /* line 21, ../sass/main.scss */
 body {
   background-color: #e6e6e6;
-  font-family: "Open Sans", sans-serif; }
-
+  font-family: "Open Sans", sans-serif;
 }
 
 /* line 25, ../sass/main.scss */
@@ -23,66 +22,96 @@ body {
   font-size: 40px;
 }
 
-/*Import additional stylesheets*/
-#home_ {
-  background-color: rgba(0, 0, 0, 0.4); }
+/* line 35, ../sass/main.scss */
+.editButton {
+  border: none;
+  background: #e6e6e6 url("../img/edit.png") no-repeat 2px 2px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
 
+/*Import additional stylesheets*/
+/* line 1, ../sass/_home.scss */
+#home_ {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 5, ../sass/_home.scss */
 .videoContainer {
   overflow: hidden;
   margin-top: -100px;
-  width: 100%; }
-  .videoContainer #homeVid {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 50%;
-    min-height: 50%;
-    width: auto;
-    height: auto;
-    z-index: -100; }
-  .videoContainer .overlay {
-    margin-top: -120px;
-    margin-left: 120px;
-    position: absolute;
-    z-index: 2; }
-    .videoContainer .overlay h2 {
-      font-family: "Oswald", sans-serif;
-      font-size: 65px;
-      color: #e6e6e6; }
-    .videoContainer .overlay p {
-      color: #e6e6e6;
-      font-size: 35px;
-      font-family: "Open Sans", sans-serif;
-      width: 400px; }
-
+  width: 100%;
+}
+/* line 10, ../sass/_home.scss */
+.videoContainer #homeVid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 50%;
+  min-height: 50%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+/* line 22, ../sass/_home.scss */
+.videoContainer .overlay {
+  margin-top: -120px;
+  margin-left: 120px;
+  position: absolute;
+  z-index: 2;
+}
+/* line 27, ../sass/_home.scss */
+.videoContainer .overlay h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 65px;
+  color: #e6e6e6;
+}
+/* line 33, ../sass/_home.scss */
+.videoContainer .overlay p {
+  color: #e6e6e6;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  width: 400px;
+}
 
 /* line 2, ../sass/_info.scss */
 #section1 .fullPage-slidesNav {
-  width: 100%; }
-  #section1 .fullPage-slidesNav ul {
-    text-align: center;
-    list-style: none;
-    font-family: "Open Sans", sans-serif; }
-    #section1 .fullPage-slidesNav ul li {
-      display: inline-block;
-      margin-bottom: 40px; }
-      #section1 .fullPage-slidesNav ul li a {
-        text-decoration: none;
-        font-family: "Open Sans", sans-serif;
-        color: #5f4739;
-        font-size: 25px; }
-      #section1 .fullPage-slidesNav ul li a.active {
-        color: #ad8454; }
-      #section1 .fullPage-slidesNav ul li a:hover {
-        color: #ad8454; }
-
+  width: 100%;
+}
+/* line 4, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul {
+  text-align: center;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+/* line 8, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul li {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+/* line 11, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul li a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #5f4739;
+  font-size: 25px;
+}
+/* line 18, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul li a.active {
+  color: #ad8454;
+}
+/* line 21, ../sass/_info.scss */
+#section1 .fullPage-slidesNav ul li a:hover {
+  color: #ad8454;
+}
+/* line 28, ../sass/_info.scss */
 #section1 h1 {
   font-size: 40px;
   color: #65b342;
   margin-bottom: 10px;
   position: relative;
-  font-family: "Open Sans", sans-serif; }
-
+  font-family: "Open Sans", sans-serif;
 }
 /* line 37, ../sass/_info.scss */
 #section1 .fb-news-box {
@@ -91,7 +120,7 @@ body {
   position: absolute;
   margin-left: 4%;
   margin-top: -7%;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
 }
 /* line 50, ../sass/_info.scss */
 #section1 .other-news-box {
@@ -101,8 +130,7 @@ body {
   margin-left: 17%;
   margin-top: -7%;
   text-align: justify;
-  font-family: "Open Sans", sans-serif; }
-
+  font-family: "Open Sans", sans-serif;
 }
 /* line 62, ../sass/_info.scss */
 #section1 .big-container-box {
@@ -112,24 +140,7 @@ body {
   margin-left: 4%;
   margin-top: -7%;
   text-align: justify;
-  font-family: "Open Sans", sans-serif; }
-  #section1 .big-container-box .infotext {
-    height: 400px;
-    width: 300px;
-    position: absolute; }
-  #section1 .big-container-box #infotext1 {
-    margin-left: 10%;
-    margin-top: 7%; }
-  #section1 .big-container-box #infotext2 {
-    margin-left: 35%;
-    margin-top: 1%; }
-  #section1 .big-container-box #infotext3 {
-    margin-left: 40%;
-    margin-top: 20%; }
-  #section1 .big-container-box #infotext4 {
-    margin-left: 65%;
-    margin-top: 10%; }
-
+  font-family: "Open Sans", sans-serif;
 }
 /* line 73, ../sass/_info.scss */
 #section1 .big-container-box .infotext {
@@ -178,34 +189,45 @@ body {
   background: rgba(230, 230, 230, 0.7);
   margin-top: 10px;
   margin-right: 10px;
+  box-sizing: border-box;
   color: #261b13;
-  font-variant: small-caps; }
-  #controlpanel h2 {
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
-    font-family: "Oswald", sans-serif;
-    font-size: 25px;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #261b13; }
-  #controlpanel #checkboxes {
-    margin: 0 0 10px 10px; }
-    #controlpanel #checkboxes input[type="checkbox"] {
-      display: none; }
-    #controlpanel #checkboxes input[type="checkbox"] + label span {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      line-height: 30px;
-      vertical-align: middle;
-      background: url("../img/checkbox.png") center no-repeat;
-      cursor: pointer; }
-    #controlpanel #checkboxes input[type="checkbox"]:checked + label span {
-      background: url("../img/checkbox_checked.png") center no-repeat; }
+  font-variant: small-caps;
+}
+/* line 20, ../sass/_map.scss */
+#controlpanel h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #261b13;
+}
+/* line 30, ../sass/_map.scss */
+#controlpanel #checkboxes {
+  margin: 0 0 10px 10px;
+}
+/* line 32, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"] {
+  display: none;
+}
+/* line 35, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 30px;
+  vertical-align: middle;
+  background: url("../img/checkbox.png") center no-repeat;
+  cursor: pointer;
+}
+/* line 44, ../sass/_map.scss */
+#controlpanel #checkboxes input[type="checkbox"]:checked + label span {
+  background: url("../img/checkbox_checked.png") center no-repeat;
 }
 
-/* line 47, ../sass/_map.scss */
+/* line 49, ../sass/_map.scss */
 .infowindow {
   min-width: 500px;
   min-height: 500px;
@@ -222,49 +244,62 @@ body {
   display: block;
   -webkit-box-shadow: 0 1px 1px -1px #261b13;
   -moz-box-shadow: 0 1px 1px -1px #261b13;
-  box-shadow: 0 1px 1px -1px #261b13; }
-  #navigation #logo {
-    height: 150px;
-    width: 150px;
-    margin-left: 50px;
-    background: url(../img/logo.png);
-    background-size: cover;
-    float: left; }
-  #navigation #navlinks {
-    margin-top: 30px;
-    list-style: none;
-    margin-right: 70px;
-    float: right;
-    height: 28px; }
-    #navigation #navlinks li {
-      font-weight: 700;
-      border-left: 1px solid #65b342;
-      font-family: "Oswald", sans-serif;
-      display: inline-block;
-      height: 100%;
-      text-align: center;
-      padding: 0 20px;
-      font-size: 20px; }
-      #navigation #navlinks li a {
-        width: 300px;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-decoration: none;
-        color: #4c372a; }
-      #navigation #navlinks li a:hover {
-        color: #9c723c; }
-    #navigation #navlinks li.active a {
-      color: #9c723c; }
-    #navigation #navlinks .first {
-      border: none; }
-
+  box-shadow: 0 1px 1px -1px #261b13;
+}
+/* line 11, ../sass/_navigation.scss */
+#navigation #logo {
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+  background: url(../img/logo.png);
+  background-size: cover;
+  float: left;
+}
+/* line 19, ../sass/_navigation.scss */
+#navigation #navlinks {
+  margin-top: 30px;
+  list-style: none;
+  margin-right: 70px;
+  float: right;
+  height: 28px;
+}
+/* line 25, ../sass/_navigation.scss */
+#navigation #navlinks li {
+  font-weight: 700;
+  border-left: 1px solid #65b342;
+  font-family: "Oswald", sans-serif;
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 20px;
+}
+/* line 34, ../sass/_navigation.scss */
+#navigation #navlinks li a {
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #4c372a;
+}
+/* line 41, ../sass/_navigation.scss */
+#navigation #navlinks li a:hover {
+  color: #9c723c;
+}
+/* line 45, ../sass/_navigation.scss */
+#navigation #navlinks li.active a {
+  color: #9c723c;
+}
+/* line 48, ../sass/_navigation.scss */
+#navigation #navlinks .first {
+  border: none;
 }
 
 /* line 1, ../sass/_gallery.scss */
 #gallery_ {
-  background-color: black; }
-
-
+  height: calc(100% - $headerheight);
+  background-color: black;
+}
 
 /* line 1, ../sass/_contact.scss */
 #contactform {
