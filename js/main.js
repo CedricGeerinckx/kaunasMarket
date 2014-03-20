@@ -12,6 +12,7 @@ $(document).ready(function() {
   	
     });
     $("#homeVid").get(0).play();
+
 });
 
 

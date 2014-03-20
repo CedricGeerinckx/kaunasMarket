@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8"/>
 <title>The Kaunas Market</title>
-<meta charset="utf-8" />
 <meta description="">
 <meta keywords="kaziuko muge, kaziuko, muge, kaunas, kaunas muge, kaziuko kaunas">
 
@@ -42,7 +41,7 @@
 			<source src="vid/vid.ogg" type="video/ogg">
 		</video>
 		<div class="overlay">
-			<h2>KAUNAS KAZIUKO MUGĖ</h2>
+			<h2>KAUNAS KAZIMIERAS FAIR</h2>
 			<p>
 				A bridge between 
 				the countryside and the city.

@@ -2,26 +2,17 @@
 /*WEIGHTS*/
 /*COLORS*/
 /*HEADERHEIGHT*/
-/* line 21, ../sass/main.scss */
 body {
   background-color: #e6e6e6;
   font-family: "Open Sans", sans-serif; }
 
-}
-
-/* line 25, ../sass/main.scss */
 .section {
   height: 100%;
-  width: 100%;
-}
-/* line 28, ../sass/main.scss */
-.section h1 {
-  font-size: 50px;
-}
-/* line 31, ../sass/main.scss */
-.section h2 {
-  font-size: 40px;
-}
+  width: 100%; }
+  .section h1 {
+    font-size: 50px; }
+  .section h2 {
+    font-size: 40px; }
 
 /*Import additional stylesheets*/
 #home_ {
@@ -55,8 +46,6 @@ body {
       font-family: "Open Sans", sans-serif;
       width: 400px; }
 
-
-/* line 2, ../sass/_info.scss */
 #section1 .fullPage-slidesNav {
   width: 100%; }
   #section1 .fullPage-slidesNav ul {
@@ -75,16 +64,12 @@ body {
         color: #ad8454; }
       #section1 .fullPage-slidesNav ul li a:hover {
         color: #ad8454; }
-
 #section1 h1 {
   font-size: 40px;
   color: #65b342;
   margin-bottom: 10px;
   position: relative;
   font-family: "Open Sans", sans-serif; }
-
-}
-/* line 37, ../sass/_info.scss */
 #section1 .fb-news-box {
   height: 700px;
   width: 13%;
@@ -92,8 +77,6 @@ body {
   margin-left: 4%;
   margin-top: -7%;
   font-family: "Open Sans", sans-serif; }
-}
-/* line 50, ../sass/_info.scss */
 #section1 .other-news-box {
   height: 700px;
   width: 13%;
@@ -102,9 +85,6 @@ body {
   margin-top: -7%;
   text-align: justify;
   font-family: "Open Sans", sans-serif; }
-
-}
-/* line 62, ../sass/_info.scss */
 #section1 .big-container-box {
   height: 700px;
   width: 25%;
@@ -130,42 +110,11 @@ body {
     margin-left: 65%;
     margin-top: 10%; }
 
-}
-/* line 73, ../sass/_info.scss */
-#section1 .big-container-box .infotext {
-  height: 400px;
-  width: 300px;
-  position: absolute;
-}
-/* line 79, ../sass/_info.scss */
-#section1 .big-container-box #infotext1 {
-  margin-left: 10%;
-  margin-top: 7%;
-}
-/* line 83, ../sass/_info.scss */
-#section1 .big-container-box #infotext2 {
-  margin-left: 35%;
-  margin-top: 1%;
-}
-/* line 87, ../sass/_info.scss */
-#section1 .big-container-box #infotext3 {
-  margin-left: 40%;
-  margin-top: 20%;
-}
-/* line 91, ../sass/_info.scss */
-#section1 .big-container-box #infotext4 {
-  margin-left: 65%;
-  margin-top: 10%;
-}
-
-/* line 1, ../sass/_map.scss */
 #mapDiv {
   float: left;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 6, ../sass/_map.scss */
 #controlpanel {
   position: absolute;
   right: 0;
@@ -178,6 +127,7 @@ body {
   background: rgba(230, 230, 230, 0.7);
   margin-top: 10px;
   margin-right: 10px;
+  box-sizing: border-box;
   color: #261b13;
   font-variant: small-caps; }
   #controlpanel h2 {
@@ -203,16 +153,12 @@ body {
       cursor: pointer; }
     #controlpanel #checkboxes input[type="checkbox"]:checked + label span {
       background: url("../img/checkbox_checked.png") center no-repeat; }
-}
 
-/* line 47, ../sass/_map.scss */
 .infowindow {
   min-width: 500px;
   min-height: 500px;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 1, ../sass/_navigation.scss */
 #navigation {
   height: 80px;
   width: 100%;
@@ -258,56 +204,42 @@ body {
     #navigation #navlinks .first {
       border: none; }
 
-}
-
-/* line 1, ../sass/_gallery.scss */
 #gallery_ {
+  height: calc(100% - $headerheight);
   background-color: black; }
 
-
-
-/* line 1, ../sass/_contact.scss */
 #contactform {
   float: left;
-  width: 60%;
-}
-/* line 4, ../sass/_contact.scss */
-#contactform input[type="text"], #contactform textarea {
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  padding: 15px;
-  margin-top: 1px;
-  border: none;
-  background: #26292e;
-  color: #fff;
-  resize: none;
-}
-/* line 17, ../sass/_contact.scss */
-#contactform input[type="submit"] {
-  width: 200px;
-  float: left;
-  font-size: 1em;
-  padding: 16px 40px;
-  margin-top: 10px;
-  border: none;
-  background: #26292e;
-  color: #5a5e68;
-  cursor: pointer;
-}
-/* line 28, ../sass/_contact.scss */
-#contactform input[type="submit"]:hover {
-  background: #3c3f45;
-  color: #fff;
-}
+  width: 60%; }
+  #contactform input[type="text"], #contactform textarea {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 1px;
+    border: none;
+    background: #26292e;
+    color: #fff;
+    resize: none; }
+  #contactform input[type="submit"] {
+    width: 200px;
+    float: left;
+    font-size: 1em;
+    padding: 16px 40px;
+    margin-top: 10px;
+    border: none;
+    background: #26292e;
+    color: #5a5e68;
+    cursor: pointer; }
+  #contactform input[type="submit"]:hover {
+    background: #3c3f45;
+    color: #fff; }
 
-/* line 34, ../sass/_contact.scss */
 #contactinfo {
   border-left: 2px solid #fff;
   float: left;
   margin-left: 20px;
   padding-left: 15px;
-  text-align: left;
-}
+  text-align: left; }
