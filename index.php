@@ -57,7 +57,7 @@ session_start();
 		</div>
 		<a href="#"><div class="register">
 			<p><span>REGISTER</span></p>
-			<p> A VENDOR SPOT</p>
+			 <p>A VENDOR SPOT</p>
 		</div></a>
 	</div>
 	<div class="arrowDown"></div>
