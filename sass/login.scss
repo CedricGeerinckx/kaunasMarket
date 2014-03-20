@@ -1,7 +1,40 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 #container{
+	background-color: #e6e6e6;
 	width:500px;
-	height:400px;
+	min-height:400px;
 	margin: 100px auto;
-	border:1px solid #000;
-	text-align:center
+	padding:20px;
+	text-align:center;
+	border:1px solid #9c723c;
+	overflow: visible;
+	#logo{
+		width:150px;
+		height:auto;
+	}
+	h1{
+		color:#261b13;
+	}
+	p{
+		font-size: 20px;
+	}
+	p#error{
+		color:red;
+	}
+	#user, #pass{
+		width:200px;
+		height:25px;
+		font-size:15px;
+		border:1px solid #4c372a;
+	}
+	#submitButton{
+		width:120px;
+		height:30px;
+		font-size:20px;
+		margin-bottom: 20px;
+		border:1px solid #4c372a;
+		background-color:#e6e6e6
+	}
 }
