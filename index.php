@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8"/>
 <title>The Kaunas Market</title>
 <meta charset="utf-8" />
 <meta description="">
@@ -9,8 +10,7 @@
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 
-
-<link  href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
+<link href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
 <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -30,19 +30,17 @@
 
 <body>
 	<?php
+	include('includes/functions.php');
 	include("includes/navigation.php");
 	?>
-
+	<div id="superContainer">
 	<div class="section active" id="home_">
 	<div class="videoContainer">
 		<video id="homeVid" loop>
 			<source src="vid/vid.webm" type="video/webm">
 			<source src="vid/vid.mp4" type="video/mp4">
 			<source src="vid/vid.ogg" type="video/ogg">
-
-
 		</video>
-
 		<div class="overlay">
 			<h2>KAUNAS KAZIUKO MUGĖ</h2>
 			<p>
@@ -122,26 +120,14 @@
 			</div>
 		</div>
 	<div class="section" id="gallery_">
-		<div class="fotorama" data-width="100%" data-height="88%" align="center" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade">
-			<img class="img" src="img/gallery/img1.jpg">
-			<img class="img" src="img/gallery/img2.jpg">
-			<img class="img" src="img/gallery/img3.jpg">
-			<img class="img" src="img/gallery/img4.jpg">
-			<img class="img" src="img/gallery/img5.jpg">
-			<img class="img" src="img/gallery/img6.jpg">
-			<img class="img" src="img/gallery/img7.jpg">
-			<img class="img" src="img/gallery/img8.jpg">
-			<img class="img" src="img/gallery/img9.jpg">
-			<img class="img" src="img/gallery/img10.jpg">
-			<img class="img" src="img/gallery/img11.jpg">
-			<img class="img" src="img/gallery/img12.jpg">
-			<img class="img" src="img/gallery/img13.jpg">
-			<img class="img" src="img/gallery/img14.jpg">
-			<img class="img" src="img/gallery/img15.jpg">
-			<img class="img" src="img/gallery/img16.jpg">
-			<img class="img" src="img/gallery/img17.jpg">
-			<img class="img" src="img/gallery/img18.jpg">
-			<img class="img" src="img/gallery/img19.jpg">
+
+		<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade" data-ratio="16/9">
+			<?php
+			$images = getGallery();
+			while($image=$images->fetch()){
+				echo "<img src='img/gallery/".$image["name"]."'/>";
+			}
+			?>
 	  	</div>
 	</div>
 	<div class="section" id="map_">
@@ -151,15 +137,35 @@
 			<h2>SELECT CATEGORY</h2>
 			<div id="checkboxes">
 				<input type="checkbox" class="checkbox" value="1" checked="checked" id="c1"/><label for="c1"><span></span></label> Food<br/>
-				<input type="checkbox" class="checkbox" value="2" checked="checked" id="c2"/><label for="c2"><span></span></label> Clothes<br/>
-				<input type="checkbox" class="checkbox" value="3" checked="checked" id="c3"/><label for="c3"><span></span></label> Crafts<br/>
-				<input type="checkbox" class="checkbox" value="4" checked="checked" id="c4"/><label for="c4"><span></span></label> Drinks<br/>
-				<input type="checkbox" class="checkbox" value="5" checked="checked" id="c5"/><label for="c5"><span></span></label> Other<br/>
+				<input type="checkbox" class="checkbox" value="3" checked="checked" id="c2"/><label for="c2"><span></span></label> Crafts<br/>
+				<input type="checkbox" class="checkbox" value="2" checked="checked" id="c3"/><label for="c3"><span></span></label> Clothes<br/>
+				<input type="checkbox" class="checkbox" value="4" checked="checked" id="c4"/><label for="c4"><span></span></label> Beauty<br/>
+				<input type="checkbox" class="checkbox" value="5" checked="checked" id="c5"/><label for="c5"><span></span></label> Toys<br/>
+				<input type="checkbox" class="checkbox" value="6" checked="checked" id="c6"/><label for="c6"><span></span></label> Drinks<br/>
+				<input type="checkbox" class="checkbox" value="7" checked="checked" id="c7"/><label for="c7"><span></span></label> Art<br/>
+				<input type="checkbox" class="checkbox" value="8" checked="checked" id="c8"/><label for="c8"><span></span></label> Other<br/>
 			</div>
 		</div>
 	</div>
 	<div class="section" id="contact_">
 		<h1>Contact</h1>
+		<div id="contactform">
+			<form method="POST" action="" name="contactform" id="conform">
+				<input type="text" name="nimi" id="name" placeholder="Name" />
+				<input type="text" name="email" id="email" placeholder="Email" />
+				<textarea name="message" id="message" placeholder="Message" rows="10" cols="40"></textarea>
+				<input type="submit" value="Send" name="button" class="submitbutton"/>
+			</form>
+			<div id="vastaus"></div>
+		</div>
+		<div id="contactinfo">
+			<h2>Information</h2>
+			<p>
+			Kaunasblaablaa</br>
+			etc<br/>
+			</p>
+		</div>
+	</div>
 	</div>
 
 	<script>(function(d, s, id) {
@@ -168,7 +174,8 @@
 	  js = d.createElement(s); js.id = id;
 	  js.src = "//connect.facebook.net/da_DK/all.js#xfbml=1&appId=197490163656160";
 	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
 </body>
 
 </html>

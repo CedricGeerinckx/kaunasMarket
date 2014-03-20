@@ -9,7 +9,7 @@ $(document).ready(function() {
     	afterRender: function(){
     		$('.fotorama').fotorama();
     	}
-
+  	
     });
     $("#homeVid").get(0).play();
 });
