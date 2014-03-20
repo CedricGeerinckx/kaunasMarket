@@ -347,6 +347,28 @@ body {
   border: none;
 }
 
+/* line 53, ../sass/_navigation.scss */
+.alertBox {
+  width: 100%;
+  position: fixed;
+  top: 80px;
+  z-index: 98;
+  color: #555555;
+  padding: 10px 10px 10px 36px;
+  text-align: center;
+  background-color: #ffecec;
+  border-bottom: 1px solid #f5aca6;
+}
+/* line 63, ../sass/_navigation.scss */
+.alertBox a {
+  text-decoration: none;
+  color: #4c372a;
+}
+/* line 67, ../sass/_navigation.scss */
+.alertBox a:hover {
+  color: #9c723c;
+}
+
 /* line 1, ../sass/_gallery.scss */
 #gallery_ {
   height: calc(100% - $headerheight);
