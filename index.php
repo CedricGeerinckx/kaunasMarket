@@ -148,6 +148,22 @@
 	</div>
 	<div class="section" id="contact_">
 		<h1>Contact</h1>
+		<div id="contactform">
+			<form method="POST" action="" name="contactform" id="conform">
+				<input type="text" name="nimi" id="name" placeholder="Name" />
+				<input type="text" name="email" id="email" placeholder="Email" />
+				<textarea name="message" id="message" placeholder="Message" rows="10" cols="40"></textarea>
+				<input type="submit" value="Send" name="button" class="submitbutton"/>
+			</form>
+			<div id="vastaus"></div>
+		</div>
+		<div id="contactinfo">
+			<h2>Information</h2>
+			<p>
+			Kaunasblaablaa</br>
+			etc<br/>
+			</p>
+		</div>
 	</div>
 	</div>
 
