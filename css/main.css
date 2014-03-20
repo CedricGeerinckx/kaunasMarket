@@ -9,6 +9,18 @@ body {
 .section {
   height: 100%;
   width: 100%; }
+  .section .arrowDown {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url(../img/arrow.png);
+    background-size: cover;
+    text-align: center;
+    top: 90%;
+    left: 47%; }
+    .section .arrowDown:hover {
+      top: 91%;
+      transition: top 0.3s; }
   .section h1 {
     font-size: 50px; }
   .section h2 {
@@ -39,7 +51,7 @@ body {
     height: auto;
     z-index: -100; }
   .videoContainer .overlay {
-    margin-top: -80px;
+    margin-top: -150px;
     margin-left: 120px;
     position: absolute;
     z-index: 2; }
@@ -54,25 +66,29 @@ body {
       width: 400px; }
   .videoContainer .register {
     position: absolute;
-    bottom: 40px;
+    bottom: 25px;
     right: 40px;
     float: right;
     width: 180px;
     height: 180px;
     background-color: #65b342;
+    border-radius: 90px;
     -webkit-border-radius: 90px;
     -moz-border-radius: 90px; }
     .videoContainer .register p {
-      line-height: 20px;
+      line-height: 18px;
       font-size: 12px;
       letter-spacing: 5px;
       position: relative;
-      top: 60px;
+      top: 55px;
       color: #e6e6e6;
       text-align: center;
       font-family: "Oswald", sans-serif; }
       .videoContainer .register p span {
         font-size: 30px; }
+    .videoContainer .register:hover {
+      bottom: 30px;
+      transition: bottom 0.3s; }
 
 #section1 .fullPage-slidesNav {
   width: 100%; }
@@ -232,6 +248,22 @@ body {
     #navigation #navlinks .first {
       border: none; }
 
+.alertBox {
+  width: 100%;
+  position: fixed;
+  top: 80px;
+  z-index: 98;
+  color: #555555;
+  padding: 10px 10px 10px 36px;
+  text-align: center;
+  background-color: #ffecec;
+  border-bottom: 1px solid #f5aca6; }
+  .alertBox a {
+    text-decoration: none;
+    color: #4c372a; }
+  .alertBox a:hover {
+    color: #9c723c; }
+
 #gallery_ {
   height: calc(100% - $headerheight);
   background-color: black; }
@@ -248,63 +280,6 @@ body {
 #contact_ #contactform {
   margin-left: 10%;
   margin-right: auto;
-  display: inline-block;
-  height: 100%;
-  text-align: center;
-  padding: 0 20px;
-  font-size: 20px;
-}
-/* line 34, ../sass/_navigation.scss */
-#navigation #navlinks li a {
-  width: 300px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-  color: #4c372a;
-}
-/* line 41, ../sass/_navigation.scss */
-#navigation #navlinks li a:hover {
-  color: #9c723c;
-}
-/* line 45, ../sass/_navigation.scss */
-#navigation #navlinks li.active a {
-  color: #9c723c;
-}
-/* line 48, ../sass/_navigation.scss */
-#navigation #navlinks .first {
-  border: none;
-}
-
-/* line 53, ../sass/_navigation.scss */
-.alertBox {
-  width: 100%;
-  position: fixed;
-  top: 80px;
-  z-index: 98;
-  color: #555555;
-  padding: 10px 10px 10px 36px;
-  text-align: center;
-  background-color: #ffecec;
-  border-bottom: 1px solid #f5aca6;
-}
-/* line 63, ../sass/_navigation.scss */
-.alertBox a {
-  text-decoration: none;
-  color: #4c372a;
-}
-/* line 67, ../sass/_navigation.scss */
-.alertBox a:hover {
-  color: #9c723c;
-}
-
-/* line 1, ../sass/_gallery.scss */
-#gallery_ {
-  height: calc(100% - $headerheight);
-  background-color: black;
-}
-
-/* line 1, ../sass/_contact.scss */
-#contactform {
   float: left;
   width: 40%; }
   #contact_ #contactform input[type="text"], #contact_ #contactform textarea {

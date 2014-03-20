@@ -20,7 +20,7 @@
 
 
 	.overlay{
-		margin-top: -80px;
+		margin-top: -150px;
 		margin-left: 120px;
 		position: absolute;
 		z-index: 2;
@@ -40,31 +40,33 @@
 
 	.register{
 		position: absolute;
-		bottom:40px;
+		bottom:25px;
 		right: 40px;
 		float: right;
 		width: 180px;
 		height: 180px;
 		background-color: $green;
+		border-radius: 90px;
 		-webkit-border-radius: 90px; 
 		-moz-border-radius: 90px;
 
 		p{
-			line-height: 20px;
+			line-height: 18px;
 			span{
 				font-size: 30px;
 			}
 			font-size: 12px;
 			letter-spacing: 5px;
 			position:relative;
-			top:60px;
+			top:55px;
 			color: $white;
 			text-align: center;
 			font-family: $incon;
 		}
 
 		&:hover{
-
+			bottom: 30px;
+			transition:bottom 0.3s;
 		}
 	}
 }

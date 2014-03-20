@@ -6,12 +6,19 @@ $(document).ready(function() {
     	scrollingSpeed: 500,
     	easing: 'easeInOutSine',
     	paddingTop: '80px',
+        fixedElements: '#navigation',
+        loopBottom:true,
+        autoScrolling: true,
     	afterRender: function(){
     		$('.fotorama').fotorama();
     	}
   	
     });
     $("#homeVid").get(0).play();
+
+    $(".arrowDown").click(function(){
+        $.fn.fullpage.moveSectionDown();
+    })
 
     $(".editButton").on("click",function(){
         var value = $(this).val();

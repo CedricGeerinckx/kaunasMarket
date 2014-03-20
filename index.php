@@ -53,11 +53,12 @@ session_start();
 				the countryside and the city.
 			</p>
 		</div>
-		<div class="register">
+		<a href="#"><div class="register">
 			<p><span>REGISTER</span></p>
 			<p> A VENDOR SPOT</p>
-		</div>
+		</div></a>
 	</div>
+	<div class="arrowDown"></div>
 	</div>
 	<div class="section" id="section1">
 			<div class="slide">
@@ -121,7 +122,7 @@ session_start();
 					<h1>News</h1>
 					<div class="fb-news-box">
 						<h1>Facebook news</h1>
-						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="700" data-height="600" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>		
+						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="700" data-height="400" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>		
 					</div>
 					<div class="other-news-box">
 						<h1>Other news</h1>
