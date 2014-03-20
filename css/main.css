@@ -89,6 +89,7 @@ body {
     .videoContainer .register:hover {
       bottom: 30px;
       transition: bottom 0.3s; }
+    
 
 #section1 .fullPage-slidesNav {
   width: 100%; }
