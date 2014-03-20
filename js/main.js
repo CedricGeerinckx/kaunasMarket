@@ -3,6 +3,8 @@ $(document).ready(function() {
     $.fn.fullpage({
     	anchors: ['home', 'info', 'gallery', 'map', 'contact'],
     	menu: '#navlinks',
+        slidesNavigation: false,
+
     	scrollingSpeed: 500,
     	easing: 'easeInOutSine',
     	paddingTop: '80px',
@@ -19,6 +21,22 @@ $(document).ready(function() {
     $(".arrowDown").click(function(){
         $.fn.fullpage.moveSectionDown();
     })
+
+    $("#pictures").on("click", function(){
+        $.fn.fullpage.moveTo(3, 0); 
+
+
+    });
+    $("#movies").on("click", function(){
+        $.fn.fullpage.moveTo(3, 1); 
+
+    });
+
+    $("#documentary").on("click", function(){
+        $.fn.fullpage.moveTo(3, 2); 
+
+    });
+
 
     $(".editButton").on("click",function(){
         var value = $(this).val();

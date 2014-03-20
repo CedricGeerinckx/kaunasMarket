@@ -89,7 +89,6 @@ body {
     .videoContainer .register:hover {
       bottom: 30px;
       transition: bottom 0.3s; }
-    
 
 #section1 .fullPage-slidesNav {
   width: 100%; }
@@ -266,8 +265,41 @@ body {
     color: #9c723c; }
 
 #gallery_ {
-  height: calc(100% - $headerheight);
   background-color: black; }
+  #gallery_ .fotorama {
+    /*position: absolute;*/
+    margin-left: -5%;
+    top: 80px;
+    width: 100%; }
+  #gallery_ .subMenu {
+    position: absolute;
+    right: 40px;
+    top: 38px;
+    margin-top: 30px;
+    list-style: none;
+    margin-right: 70px; }
+    #gallery_ .subMenu li {
+      background-color: #261b13;
+      font-weight: 700;
+      /*border-left: 1px solid $green;*/
+      font-family: "Oswald", sans-serif;
+      display: inline-block;
+      height: 100%;
+      text-align: center;
+      padding: 0 20px;
+      font-size: 18px;
+      color: #e6e6e6; }
+      #gallery_ .subMenu li a {
+        cursor: pointer;
+        width: 300px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #e6e6e6;
+        text-decoration: none; }
+      #gallery_ .subMenu li a:hover {
+        color: #9c723c; }
+    #gallery_ .subMenu li.active a {
+      color: #9c723c; }
 
 #contact_ h1 {
   font-family: "Oswald", sans-serif;

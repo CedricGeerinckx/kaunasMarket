@@ -54,7 +54,7 @@ html, body {
     position: relative;
     margin-left: 5%;
 }
-.controlArrow {
+/*.controlArrow {
     position: absolute;
     top: 50%;
     cursor: pointer;
@@ -62,8 +62,8 @@ html, body {
     height: 0;
     border-style: solid;
     margin-top: -38px;
-}
-.controlArrow.prev {
+}*/
+/*.controlArrow.prev {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
@@ -73,7 +73,7 @@ html, body {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #65b342;
-}
+}*/
 .scrollable {
     overflow: scroll;
 }
