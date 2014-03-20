@@ -20,7 +20,7 @@
 
 
 	.overlay{
-		margin-top: -120px;
+		margin-top: -80px;
 		margin-left: 120px;
 		position: absolute;
 		z-index: 2;
@@ -35,6 +35,36 @@
 			font-size: 35px;
 			font-family: $istok;
 			width:400px;
+		}
+	}
+
+	.register{
+		position: absolute;
+		bottom:40px;
+		right: 40px;
+		float: right;
+		width: 180px;
+		height: 180px;
+		background-color: $green;
+		-webkit-border-radius: 90px; 
+		-moz-border-radius: 90px;
+
+		p{
+			line-height: 20px;
+			span{
+				font-size: 30px;
+			}
+			font-size: 12px;
+			letter-spacing: 5px;
+			position:relative;
+			top:60px;
+			color: $white;
+			text-align: center;
+			font-family: $incon;
+		}
+
+		&:hover{
+
 		}
 	}
 }
