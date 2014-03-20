@@ -4,10 +4,12 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="utf-8"/>
 <title>The Kaunas Market</title>
 <meta description="">
 <meta keywords="kaziuko muge, kaziuko, muge, kaunas, kaunas muge, kaziuko kaunas">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
@@ -50,6 +52,10 @@ session_start();
 				A bridge between 
 				the countryside and the city.
 			</p>
+		</div>
+		<div class="register">
+			<p><span>REGISTER</span></p>
+			<p> A VENDOR SPOT</p>
 		</div>
 	</div>
 	</div>
@@ -185,24 +191,27 @@ session_start();
 		</div>
 	</div>
 	<div class="section" id="contact_">
-		<h1>Contact</h1>
-		<div id="contactform">
-			<form method="POST" action="" name="contactform" id="conform">
-				<input type="text" name="nimi" id="name" placeholder="Name" />
-				<input type="text" name="email" id="email" placeholder="Email" />
-				<textarea name="message" id="message" placeholder="Message" rows="10" cols="40"></textarea>
-				<input type="submit" value="Send" name="button" class="submitbutton"/>
-			</form>
-			<div id="vastaus"></div>
-		</div>
-		<div id="contactinfo">
-			<h2>Information</h2>
-			<p>
-			Kaunasblaablaa</br>
-			etc<br/>
-			</p>
-		</div>
-	</div>
+		<div class="contactWrapper">
+						<div id="contactform">
+							<h1>Contact</h1>
+								<form method="POST" action="" name="contactform" id="conform">
+									<input type="text" name="nimi" id="name" placeholder="Name" />
+									<input type="text" name="email" id="email" placeholder="Email" />
+									<textarea name="message" id="message" placeholder="Message" rows="10" cols="40"></textarea>
+									<input type="submit" value="Send" name="button" class="submitbutton"/>
+								</form>
+						</div>
+						<div id="contactinfo">
+								<h1>Information</h1>
+								<h2>Phone number</h2>
+								+370 37 400 357 <br>
+								<h2>Email</h2>
+								info@seimosukiai.lt<br>
+								<h2>Opening time</h2>
+								Monday to Friday, 9 am-4pm<br>
+
+						</div>
+					</div>
 	</div>
 
 	<script>(function(d, s, id) {
