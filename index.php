@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8"/>
 <title>The Kaunas Market</title>
 
 <meta description="">
@@ -9,8 +10,7 @@
 <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-
-<link  href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
+<link href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
 <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
