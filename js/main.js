@@ -1,3 +1,4 @@
+var a = true;
 $(document).ready(function() {
 
     $.fn.fullpage({
@@ -10,6 +11,7 @@ $(document).ready(function() {
     	paddingTop: '80px',
         fixedElements: '#navigation',
         loopBottom:true,
+        scrollOverflow: true,
         autoScrolling: true,
     	afterRender: function(){
     		$('.fotorama').fotorama();
@@ -51,13 +53,42 @@ $(document).ready(function() {
                     beforeShow: function(){ 
                         CKEDITOR.replace("contentBox")
                     },
-                    content : "<form method='POST' action='includes/pages.php?save'>Content:<br/><textarea class='ckeditor' name='contentBox'>"+text+"</textarea><br/><input type='submit' value='Save' id='saveButton'/><input type='hidden' name='contentId' value='"+data[0].id+"'/></form>"
-
+                    content : "<div id='editBox'><form method='POST' action='includes/pages.php?save'><p>Edit content</p><textarea class='ckeditor' name='contentBox'>"+text+"</textarea><br/><input type='submit' value='Save' class='saveButton'/><input type='hidden' name='contentId' value='"+data[0].id+"'/></form></div>"
                 }); 
             }
         });
-        
+    })
+    $("#readMoreHistory").on("click",function(e){
+        e.preventDefault();
+        var text;
+        $.ajax({
+            type: 'GET',
+            dataType: 'json',
+            url: 'http://localhost/kaunasMarket/includes/pages.php?content=history',
+            success: function(data) {
+                text = data[0].content;
+                $.fancybox.open({
+                    content : text
+                }); 
+            }
+        });
     })
 });
+
+
+$(function() {
+    
+      $("#logo").click(function( event ) {
+        if (a) {
+        $( "#navigation #navlinks" ).slideDown( "slow" );
+        
+          };
+    if (!a) {
+      $( "#navigation #navlinks" ).slideUp( "slow" );
+      };
+
+    a = !a;
+      });
+  });
 
 

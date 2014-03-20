@@ -14,16 +14,18 @@ session_start();
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 
-<link href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
+<link rel="stylesheet" href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" />
 <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/main_mobile.css" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
 <!--<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>-->
 <script src="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.js"></script>
+<script src="js/jquery.slimscroll.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="ckeditor/ckeditor.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnnddgOPyxcKNLuayGpUFqmrNAVbusnk8&sensor=true"></script>
@@ -65,55 +67,15 @@ session_start();
 				<div class="intro">
 					<h1>Information</h1>
 					<div class="big-container-box">
-							<div class="infotext" id="infotext1">
-								<h1>WHAT?</h1>
-								<?php
-									if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
-										echo "<button class='editButton' value='what'></button>";
-									}
-									$text = getPage("what");
-									while($content=$text->fetch()) {
-										echo $content["content"];
-									}
-								?>
-							</div>
-							<div class="infotext" id="infotext2">
-								<h1>WHEN?</h1>
-								<?php
-									if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
-										echo "<button class='editButton' value='when'></button>";
-									}
-									$text = getPage("when");
-									while($content=$text->fetch()) {
-										echo $content["content"];
-									}
-								?>
-							</div>
-							<div class="infotext" id="infotext3">
-								<h1>WHERE?</h1>
-								<?php
-									if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
-										echo "<button class='editButton' value='where'></button>";
-									}
-									$text = getPage("where");
-									while($content=$text->fetch()) {
-										echo $content["content"];
-									}
-								?>
-
-							</div>
-							<div class="infotext" id="infotext4">
-								<h1>WHO?</h1>
-								<?php
-									if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
-										echo "<button class='editButton' value='who'></button>";
-									}
-									$text = getPage("who");
-									while($content=$text->fetch()) {
-										echo $content["content"];
-									}
-								?>
-							</div>
+					<?php
+					if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
+						echo "<button class='editButton' value='information'></button>";
+					}
+					$text = getPage("information");
+					while($content=$text->fetch()) {
+						echo $content["content"];
+					}
+					?>
 					</div>	
 				</div>
 			</div>
@@ -121,20 +83,7 @@ session_start();
 				<div class="intro">
 					<h1>News</h1>
 					<div class="fb-news-box">
-						<h1>Facebook news</h1>
-						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="700" data-height="400" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>		
-					</div>
-					<div class="other-news-box">
-						<h1>Other news</h1>
-						<?php
-							if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
-								echo "<button class='editButton' value='othernews'></button>";
-							}
-							$text = getPage("othernews");
-							while($content=$text->fetch()) {
-								echo $content["content"];
-							}
-						?>
+						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="60%" data-height="50%" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>		
 					</div>
 				</div>
 			</div>
@@ -142,15 +91,14 @@ session_start();
 				<div class="intro">
 					<h1>History</h1>
 					<div class="big-container-box">
-					<h1>Kaziuko Muge</h1>
 					<?php
-						if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
-							echo "<button class='editButton' value='history'></button>";
-						}
-						$text = getPage("history");
-						while($content=$text->fetch()) {
-							echo $content["content"];
-						}
+					if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
+						echo "<button class='editButton' value='history'></button>";
+					}
+					$text = getPage("history");
+					while($content=$text->fetch()) {
+						echo $content["content"];
+					}
 					?>
 					</div>
 				</div>
@@ -177,10 +125,10 @@ session_start();
 		</div>
 		<div class="slide">
 
-		<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
-			  <a href="http://youtube.com/watch?v=C3lWwBslWqg">Desert Rose</a>
-			  <a href="http://vimeo.com/61527416">Celestial Dynamics</a>
-		</div>
+			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
+				  <a href="http://youtube.com/watch?v=C3lWwBslWqg">Desert Rose</a>
+				  <a href="http://vimeo.com/61527416">Celestial Dynamics</a>
+			</div>
 
 			
 		</div>
@@ -211,8 +159,9 @@ session_start();
 	  					DOCUMENTARY
 	  				</a>
 	  			</li>
-	  			</a>
+	  			
 	  		</ul>
+		
 	  	</div>
 	</div>
 	<div class="section" id="map_">
@@ -234,26 +183,25 @@ session_start();
 	</div>
 	<div class="section" id="contact_">
 		<div class="contactWrapper">
-						<div id="contactform">
-							<h1>Contact</h1>
-								<form method="POST" action="" name="contactform" id="conform">
-									<input type="text" name="nimi" id="name" placeholder="Name" />
-									<input type="text" name="email" id="email" placeholder="Email" />
-									<textarea name="message" id="message" placeholder="Message" rows="10" cols="40"></textarea>
-									<input type="submit" value="Send" name="button" class="submitbutton"/>
-								</form>
-						</div>
-						<div id="contactinfo">
-								<h1>Information</h1>
-								<h2>Phone number</h2>
-								+370 37 400 357 <br>
-								<h2>Email</h2>
-								info@seimosukiai.lt<br>
-								<h2>Opening time</h2>
-								Monday to Friday, 9 am-4pm<br>
-
-						</div>
-					</div>
+			<div id="contactform">
+				<h1>Contact</h1>
+					<form method="POST" action="#" name="contactform" id="conform">
+						<input type="text" name="nimi" id="name" placeholder="Name" />
+						<input type="text" name="email" id="email" placeholder="Email" />
+						<textarea name="message" id="message" placeholder="Message" rows="10" cols="40"></textarea>
+						<input type="submit" value="Send" name="button" class="submitbutton"/>
+					</form>
+			</div>
+			<div id="contactinfo">
+					<h1>Information</h1>
+					<h2>Phone number</h2>
+					+370 37 400 357 <br/>
+					<h2>Email</h2>
+					info@seimosukiai.lt<br/>
+					<h2>Opening time</h2>
+					Monday to Friday, 9 am-4pm<br/>
+			</div>
+		</div>
 	</div>
 
 	<script>(function(d, s, id) {

@@ -26,6 +26,7 @@ elseif(isset($_POST['button'])){
 <head>
 <title>KAUNAS KAZIMIERAS FAIR - Login</title>
 <meta charset="utf-8"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css" href="css/login.css" />
@@ -34,7 +35,7 @@ elseif(isset($_POST['button'])){
 
 <body>
 <div id="container">
-<img src="img/logo.png" id="logo"/>
+<a href="."><img src="img/logo.png" id="logo"/></a>
 <?php
 if(isset($error)){
 	echo "<p id='error'>".$error."</p>";

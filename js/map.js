@@ -72,14 +72,14 @@ function initialize() {
 
 //Categories: 1= food, 2=crafts, 3=clothes, 4=beauty, 5=toys, 6=drinks, 7=art, 8=others
 var categories ={
-  1: ["Food", "http://maps.google.com/mapfiles/ms/micons/restaurant.png"],
-  2: ["Crafts", "http://maps.google.com/mapfiles/ms/micons/convienancestore.png"],
-  3: ["Clothes", "http://maps.google.com/mapfiles/ms/micons/tree.png"],
-  4: ["Beauty", "http://maps.google.com/mapfiles/ms/micons/coffeehouse.png"],
-  5: ["Toys", "http://maps.google.com/mapfiles/ms/micons/question.png"],
-  6: ["Drinks", "http://maps.google.com/mapfiles/ms/micons/question.png"],
-  7: ["Art", "http://maps.google.com/mapfiles/ms/micons/question.png"],
-  8: ["Other", "http://maps.google.com/mapfiles/ms/micons/question.png"]
+  1: ["Food", "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"],
+  2: ["Crafts", "http://maps.google.com/mapfiles/ms/icons/green-dot.png"],
+  3: ["Clothes", "http://maps.google.com/mapfiles/ms/icons/ltblue-dot.png"],
+  4: ["Beauty", "http://maps.google.com/mapfiles/ms/icons/orange-dot.png"],
+  5: ["Toys", "http://maps.google.com/mapfiles/ms/icons/pink-dot.png"],
+  6: ["Drinks", "http://maps.google.com/mapfiles/ms/icons/purple-dot.png"],
+  7: ["Art", "http://maps.google.com/mapfiles/ms/icons/red-dot.png"],
+  8: ["Other", "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"]
 };
 var markerGroups = {1:[], 2:[], 3:[], 4:[], 5:[], 6:[], 7:[], 8:[]};
 

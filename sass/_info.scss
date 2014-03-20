@@ -1,13 +1,14 @@
 #section1{
 	.fullPage-slidesNav{
-		width:100%;
+		width:180px;
+		margin-top:50%;
+		margin-left:80px;
 		ul{
-			text-align: center;
+			text-align: left;
 			list-style: none;
 			font-family: $istok;
 			li{
-				display: inline-block;
-				margin-bottom:40px;
+				display: block;
 				a{
 					text-decoration:none;
 					font-family: $istok;
@@ -25,74 +26,40 @@
 			}
 		}
 	}
+	a{
+		text-decoration:none;
+		color:#5f4739;
+	}
+	a:hover{
+		color:#ad8454;
+	}
 	h1{ 
 		font-size: 40px;
 		color: $green;
 		margin-bottom: 10px;
 		position:relative;
 		font-family: $istok;
-
+		text-align:center;
 	}
 
 	.fb-news-box{
-
-		height: 700px;
-		width: 13%;
-
-		position: absolute;
-		margin-left: 4%;
-		margin-top: -7%;
+		clear:both;
+		margin-left:auto;
+		margin-right:auto;
 		font-family: $istok;
-
-		.fb-like-box{
-		}
 	}
-	.other-news-box{
-		height: 700px;
-		width: 13%;
-
-		position: absolute;
-		margin-left: 17%;
-		margin-top: -7%;
-
-		text-align: justify;
-		font-family: $istok;
+	.intro{
+		width:80%;
+		height:80%;
+		margin-left:300px;
 	}
 
 	.big-container-box{
-		height: 700px;
-		width: 25%;
-
-		position: absolute;
-		margin-left: 4%;
-		margin-top: -7%;
-
+		width:80%;
 		text-align: justify;
 		font-family: $istok;
-
-		.infotext{
-			height: 400px;
-			width: 300px;
-			position: absolute;
-		}
-
-		#infotext1{
-			margin-left:10%;
-			margin-top: 7%;
-		}
-		#infotext2{
-			margin-left: 35%;
-			margin-top: 1%;
-		}
-		#infotext3{
-			margin-left:40%;
-			margin-top: 20%
-		}
-		#infotext4{
-			margin-left:65%;
-			margin-top: 10%;
-		}
+		padding-bottom:60px;
+		padding-top:10px;
 	}
-
 	
 }

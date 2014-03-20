@@ -33,6 +33,22 @@ body {
   height: 24px;
   cursor: pointer; }
 
+#editBox {
+  text-align: center;
+  min-width: 500px;
+  min-height: 300px; }
+  #editBox .saveButton {
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #4c372a;
+    border: none;
+    background-color: #e6e6e6;
+    cursor: pointer; }
+  #editBox .saveButton:hover {
+    color: #9c723c; }
+
 /*Import additional stylesheets*/
 #home_ {
   background-color: rgba(0, 0, 0, 0.4); }
@@ -91,14 +107,15 @@ body {
       transition: bottom 0.3s; }
 
 #section1 .fullPage-slidesNav {
-  width: 100%; }
+  width: 180px;
+  margin-top: 50%;
+  margin-left: 80px; }
   #section1 .fullPage-slidesNav ul {
-    text-align: center;
+    text-align: left;
     list-style: none;
     font-family: "Open Sans", sans-serif; }
     #section1 .fullPage-slidesNav ul li {
-      display: inline-block;
-      margin-bottom: 40px; }
+      display: block; }
       #section1 .fullPage-slidesNav ul li a {
         text-decoration: none;
         font-family: "Open Sans", sans-serif;
@@ -108,51 +125,33 @@ body {
         color: #ad8454; }
       #section1 .fullPage-slidesNav ul li a:hover {
         color: #ad8454; }
+#section1 a {
+  text-decoration: none;
+  color: #5f4739; }
+#section1 a:hover {
+  color: #ad8454; }
 #section1 h1 {
   font-size: 40px;
   color: #65b342;
   margin-bottom: 10px;
   position: relative;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  text-align: center; }
 #section1 .fb-news-box {
-  height: 700px;
-  width: 13%;
-  position: absolute;
-  margin-left: 4%;
-  margin-top: -7%;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Open Sans", sans-serif; }
-#section1 .other-news-box {
-  height: 700px;
-  width: 13%;
-  position: absolute;
-  margin-left: 17%;
-  margin-top: -7%;
-  text-align: justify;
-  font-family: "Open Sans", sans-serif; }
+#section1 .intro {
+  width: 80%;
+  height: 80%;
+  margin-left: 300px; }
 #section1 .big-container-box {
-  height: 700px;
-  width: 25%;
-  position: absolute;
-  margin-left: 4%;
-  margin-top: -7%;
+  width: 80%;
   text-align: justify;
-  font-family: "Open Sans", sans-serif; }
-  #section1 .big-container-box .infotext {
-    height: 400px;
-    width: 300px;
-    position: absolute; }
-  #section1 .big-container-box #infotext1 {
-    margin-left: 10%;
-    margin-top: 7%; }
-  #section1 .big-container-box #infotext2 {
-    margin-left: 35%;
-    margin-top: 1%; }
-  #section1 .big-container-box #infotext3 {
-    margin-left: 40%;
-    margin-top: 20%; }
-  #section1 .big-container-box #infotext4 {
-    margin-left: 65%;
-    margin-top: 10%; }
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 60px;
+  padding-top: 10px; }
 
 #mapDiv {
   float: left;
@@ -199,9 +198,11 @@ body {
       background: url("../img/checkbox_checked.png") center no-repeat; }
 
 .infowindow {
-  min-width: 500px;
-  min-height: 500px;
-  text-align: center; }
+  min-width: 100px;
+  min-height: 100px;
+  overflow: auto;
+  text-align: center;
+  margin: 30px; }
 
 #navigation {
   height: 80px;
@@ -268,7 +269,7 @@ body {
   background-color: black; }
   #gallery_ .fotorama {
     /*position: absolute;*/
-    margin-left: -5%;
+    margin-left: 0;
     top: 80px;
     width: 100%; }
   #gallery_ .subMenu {

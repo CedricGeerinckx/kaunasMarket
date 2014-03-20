@@ -1,5 +1,4 @@
 /*FONTS*/
-
 $istok:  'Open Sans', sans-serif;
 $incon: 'Oswald', sans-serif;
 
@@ -17,7 +16,6 @@ $green: #65b342;
 /*HEADERHEIGHT*/
 $headerheight: 80px;
 
-
 body{
 	background-color:$white;
 	font-family: $istok;
@@ -25,7 +23,6 @@ body{
 .section{
 	height:100%;
 	width:100%;
-
 	.arrowDown{
 		position: absolute;
 		width: 50px;
@@ -35,7 +32,6 @@ body{
 		text-align: center;
 		top: 90%;
 		left: 47%;
-
 		&:hover{
 			top:91%;
 			transition: top 0.3s;
@@ -55,8 +51,23 @@ body{
 	height:24px;
 	cursor:pointer;
 }
-.saveButton{
-	
+#editBox{
+	text-align: center;
+	min-width:500px;
+	min-height: 300px;
+	.saveButton{
+		width:120px;
+		height:30px;
+		font-size:20px;
+		margin-bottom: 20px;
+		color:$lightbrown;
+		border:none;
+		background-color:$white;
+		cursor:pointer;
+	}
+	.saveButton:hover{
+		color:$lightestbrown;
+	}
 }
 /*Import additional stylesheets*/
 
