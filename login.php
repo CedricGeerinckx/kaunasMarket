@@ -9,7 +9,7 @@ elseif(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
 elseif(isset($_POST['button'])){
 	include("includes/functions.php");
 	if(empty($_POST['user']) || empty($_POST['pass'])){
-		echo "You must enter username and password.";
+		$error = "You must enter username and password.";
 	}
 	else{
 		$user = $_POST["user"];
@@ -24,27 +24,34 @@ elseif(isset($_POST['button'])){
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login</title>
-<meta charset="UTF-8"/>
+<title>KAUNAS KAZIMIERAS FAIR - Login</title>
+<meta charset="utf-8"/>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 <link rel="stylesheet" type="text/css" href="css/login.css" />
+
 </head>
 
 <body>
+<div id="container">
+<img src="img/logo.png" id="logo"/>
 <?php
+if(isset($error)){
+	echo "<p id='error'>".$error."</p>";
+} 
 if(isset($_SESSION["ERRMSG"])){
-	echo $_SESSION["ERRMSG"];
+	echo "<p id='error'>".$_SESSION["ERRMSG"]."</p>";
 	unset($_SESSION["ERRMSG"]);
 }
 ?>
-<div id="container">
 <h1>Login</h1>
 <form method="POST" action="<?php echo $_SERVER['PHP_SELF']?>">
 	<p>Username:<br/>
-	<input type="text" name="user" required="required"/></p>
+	<input type="text" name="user" required="required" id="user"/></p>
 	<p>Password:<br/>
-	<input type="password" name="pass" required="required"/>
+	<input type="password" name="pass" required="required" id="pass"/>
 	</p>
-	<input type="submit" name="button" value="Login"/>
+	<input type="submit" name="button" id="submitButton" value="Login"/>
 </form>
 </div>
 </body>

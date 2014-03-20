@@ -6,7 +6,7 @@ session_start();
 <head>
 
 <meta charset="utf-8"/>
-<title>The Kaunas Market</title>
+<title>KAUNAS KAZIMIERAS FAIR</title>
 <meta description="">
 <meta keywords="kaziuko muge, kaziuko, muge, kaunas, kaunas muge, kaziuko kaunas">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />

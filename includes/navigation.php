@@ -25,3 +25,8 @@
 		</li>
 	</ul>
 </div>
+<?php
+if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
+	echo "<div class='alertBox'>You are logged in as Admin. <a href='login.php?logout'>Logout here</a></div>";
+}
+?>
