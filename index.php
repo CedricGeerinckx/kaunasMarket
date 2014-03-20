@@ -16,8 +16,10 @@ session_start();
 
 <link rel="stylesheet" href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" />
 <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/jquery.fullPage.css" />
-<link rel="stylesheet" href="css/main.css" />
+
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/main_mobile.css" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	

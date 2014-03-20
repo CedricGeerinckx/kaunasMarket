@@ -1,3 +1,4 @@
+var a = true;
 $(document).ready(function() {
 
     $.fn.fullpage({
@@ -40,5 +41,21 @@ $(document).ready(function() {
         
     })
 });
+
+
+$(function() {
+    
+      $("#logo").click(function( event ) {
+        if (a) {
+        $( "#navigation #navlinks" ).slideDown( "slow" );
+        
+          };
+    if (!a) {
+      $( "#navigation #navlinks" ).slideUp( "slow" );
+      };
+
+    a = !a;
+      });
+  });
 
 
