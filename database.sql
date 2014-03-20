@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 20.03.2014 klo 10:44
+-- Generation Time: 20.03.2014 klo 13:52
 -- Palvelimen versio: 5.6.16
 -- PHP Version: 5.5.9
 
@@ -19,6 +19,26 @@ SET time_zone = "+00:00";
 --
 -- Database: `mm_ip`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Rakenne taululle `admin`
+--
+
+CREATE TABLE IF NOT EXISTS `admin` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` text COLLATE utf8_unicode_ci NOT NULL,
+  `pass` text COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+
+--
+-- Vedos taulusta `admin`
+--
+
+INSERT INTO `admin` (`id`, `username`, `pass`) VALUES
+(1, 'admin', '5f4dcc3b5aa765d61d8327deb882cf99');
 
 -- --------------------------------------------------------
 
@@ -112,6 +132,31 @@ INSERT INTO `image` (`ID`, `name`, `type`, `vendor_id`) VALUES
 (17, 'galleryimg17.jpg', 'gallery', NULL),
 (18, 'galleryimg18.jpg', 'gallery', NULL),
 (19, 'galleryimg19.jpg', 'gallery', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Rakenne taululle `pages`
+--
+
+CREATE TABLE IF NOT EXISTS `pages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` text COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=7 ;
+
+--
+-- Vedos taulusta `pages`
+--
+
+INSERT INTO `pages` (`id`, `name`, `content`) VALUES
+(1, 'othernews', '<p>More news here</p>'),
+(2, 'history', '<p>Testing more sdasdadad</p>'),
+(3, 'what', '<p>TEEEEXT</p>'),
+(4, 'where', '<p>YIPPII</p>'),
+(5, 'when', '<p>Some text here!</p>'),
+(6, 'who', '<p>WHOOO?</p>');
 
 -- --------------------------------------------------------
 

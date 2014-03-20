@@ -32,7 +32,16 @@ body{
 		font-size:40px;
 	}
 }
-
+.editButton{
+	border:none;
+	background:$white url('../img/edit.png') no-repeat 2px 2px;
+	width:24px;
+	height:24px;
+	cursor:pointer;
+}
+.saveButton{
+	
+}
 /*Import additional stylesheets*/
 
 @import '_home', '_info', '_history', '_map', '_navigation', '_gallery', '_contact';
