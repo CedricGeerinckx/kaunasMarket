@@ -2,12 +2,12 @@
 <html>
 <head>
 <title>The Kaunas Market</title>
-
+<meta charset="utf-8" />
 <meta description="">
 <meta keywords="kaziuko muge, kaziuko, muge, kaunas, kaunas muge, kaziuko kaunas">
 
-<link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 
 
 <link  href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet">
@@ -44,7 +44,7 @@
 		</video>
 
 		<div class="overlay">
-			<h2>KAUNAS KAZIUKO MUGE</h2>
+			<h2>KAUNAS KAZIUKO MUGĖ</h2>
 			<p>
 				A bridge between 
 				the countryside and the city.
@@ -122,7 +122,7 @@
 			</div>
 		</div>
 	<div class="section" id="gallery_">
-		<div class="fotorama" style="height:100%;width:100%" data-width="100%" data-height="100%" align="center" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade">
+		<div class="fotorama" data-width="100%" data-height="88%" align="center" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade">
 			<img class="img" src="img/gallery/img1.jpg">
 			<img class="img" src="img/gallery/img2.jpg">
 			<img class="img" src="img/gallery/img3.jpg">
@@ -148,7 +148,7 @@
 		<div id="mapDiv">
 		</div>
 		<div id="controlpanel">
-			<h2>Select category</h2>
+			<h2>SELECT CATEGORY</h2>
 			<div id="checkboxes">
 				<input type="checkbox" class="checkbox" value="1" checked="checked" id="c1"/><label for="c1"><span></span></label> Food<br/>
 				<input type="checkbox" class="checkbox" value="2" checked="checked" id="c2"/><label for="c2"><span></span></label> Clothes<br/>

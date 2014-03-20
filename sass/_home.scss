@@ -1,8 +1,11 @@
+#home_{
+	background-color: rgba(0,0,0, 0.4);
+}
+
 .videoContainer{
 	overflow: hidden;
 	margin-top:-100px;
 	width: 100%;
-	height: 100%;
 
 	#homeVid{
 		position: absolute; 
@@ -17,19 +20,17 @@
 
 
 	.overlay{
-		margin-top: 200px;
-		margin-left: 200px;
+		margin-top: -120px;
+		margin-left: 120px;
 		position: absolute;
 		z-index: 2;
 		h2{
-			text-shadow: 3px 3px 0px rgba(0,0,0, 0.5);
-			font-family: $istok;
-			font-size:50px;
+			font-family: $incon;
+			font-size:65px;
 			color: $white;
 		}
 
 		p{
-			text-shadow: 3px 3px 0px rgba(0,0,0, 0.5);
 			color:$white;
 			font-size: 35px;
 			font-family: $istok;

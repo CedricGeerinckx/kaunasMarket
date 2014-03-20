@@ -1,6 +1,6 @@
 <div id="navigation">
 	<div id="logo">
-		LOGO
+		
 	</div>
 
 <!-- 	<div id="register">

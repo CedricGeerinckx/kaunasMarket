@@ -10,20 +10,22 @@
 	width:20%;
 	font-size:25px;
 	padding:5px;
-	background:rgb(230, 230, 230); /* Fall-back for browsers that don't support rgba */
+	background:rgb(230, 230, 230);  /*Fall-back for browsers that don't support rgba */
     background:rgba(230, 230, 230, .7);
-    border:1px solid $brown;
     margin-top:10px;
     margin-right:10px;
 	box-sizing:border-box;
-	color:#4c372a;
+	color:$brown;
 	font-variant:small-caps;
 	h2{
-		font-size:30px;
-		text-align:center;
+		padding-bottom: 10px;
+		border-bottom: 1px solid black;
+		font-family: $incon;
+		font-size:25px;
+		text-align:left;
 		margin-top:10px;
 		margin-bottom:10px;
-		color:$green;
+		color:$brown;
 	}
 	#checkboxes{
 		margin:0 0 10px 10px;
@@ -32,8 +34,8 @@
 		}
 		input[type="checkbox"] + label span {
 		    display:inline-block;
-		    width:35px;
-		    height:35px;
+		    width:20px;
+		    height:20px;
 		    line-height:30px;
 		    vertical-align:middle;
 		    background:url('../img/checkbox.png') center no-repeat;
