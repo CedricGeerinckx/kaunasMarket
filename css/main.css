@@ -13,16 +13,32 @@ body {
   height: 100%;
   width: 100%;
 }
-/* line 28, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
+.section .arrowDown {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url(../img/arrow.png);
+  background-size: cover;
+  text-align: center;
+  top: 90%;
+  left: 47%;
+}
+/* line 39, ../sass/main.scss */
+.section .arrowDown:hover {
+  top: 91%;
+  transition: top 0.3s;
+}
+/* line 44, ../sass/main.scss */
 .section h1 {
   font-size: 50px;
 }
-/* line 31, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 .section h2 {
   font-size: 40px;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 .editButton {
   border: none;
   background: #e6e6e6 url("../img/edit.png") no-repeat 2px 2px;
@@ -31,13 +47,13 @@ body {
   cursor: pointer;
 }
 
-/* line 42, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 #editBox {
   text-align: center;
   min-width: 500px;
   min-height: 300px;
 }
-/* line 46, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 #editBox .saveButton {
   width: 120px;
   height: 30px;
@@ -48,7 +64,7 @@ body {
   background-color: #e6e6e6;
   cursor: pointer;
 }
-/* line 56, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 #editBox .saveButton:hover {
   color: #9c723c;
 }
@@ -78,7 +94,7 @@ body {
 }
 /* line 22, ../sass/_home.scss */
 .videoContainer .overlay {
-  margin-top: -80px;
+  margin-top: -150px;
   margin-left: 120px;
   position: absolute;
   z-index: 2;
@@ -99,29 +115,35 @@ body {
 /* line 41, ../sass/_home.scss */
 .videoContainer .register {
   position: absolute;
-  bottom: 40px;
+  bottom: 25px;
   right: 40px;
   float: right;
   width: 180px;
   height: 180px;
   background-color: #65b342;
+  border-radius: 90px;
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
 }
-/* line 52, ../sass/_home.scss */
+/* line 53, ../sass/_home.scss */
 .videoContainer .register p {
-  line-height: 20px;
+  line-height: 18px;
   font-size: 12px;
   letter-spacing: 5px;
   position: relative;
-  top: 60px;
+  top: 55px;
   color: #e6e6e6;
   text-align: center;
   font-family: "Oswald", sans-serif;
 }
-/* line 54, ../sass/_home.scss */
+/* line 55, ../sass/_home.scss */
 .videoContainer .register p span {
   font-size: 30px;
+}
+/* line 67, ../sass/_home.scss */
+.videoContainer .register:hover {
+  bottom: 30px;
+  transition: bottom 0.3s;
 }
 
 /* line 2, ../sass/_info.scss */
@@ -181,7 +203,7 @@ body {
 /* line 51, ../sass/_info.scss */
 #section1 .big-container-box {
   width: 80%;
-  height: 500px;
+  height: 60%;
   clear: both;
   overflow: scroll;
   margin-left: auto;
