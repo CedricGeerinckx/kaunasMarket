@@ -52,7 +52,6 @@ html, body {
 .slidesContainer {
     float: left;
     position: relative;
-    margin-left: 5%;
 }
 .controlArrow {
     position: absolute;

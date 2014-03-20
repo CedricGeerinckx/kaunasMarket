@@ -39,8 +39,23 @@ body{
 	height:24px;
 	cursor:pointer;
 }
-.saveButton{
-	
+#editBox{
+	text-align: center;
+	min-width:500px;
+	min-height: 300px;
+	.saveButton{
+		width:120px;
+		height:30px;
+		font-size:20px;
+		margin-bottom: 20px;
+		color:$lightbrown;
+		border:none;
+		background-color:$white;
+		cursor:pointer;
+	}
+	.saveButton:hover{
+		color:$lightestbrown;
+	}
 }
 /*Import additional stylesheets*/
 

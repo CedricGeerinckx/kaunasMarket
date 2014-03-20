@@ -26,8 +26,7 @@ $(document).ready(function() {
                     beforeShow: function(){ 
                         CKEDITOR.replace("contentBox")
                     },
-                    content : "<form method='POST' action='includes/pages.php?save'>Content:<br/><textarea class='ckeditor' name='contentBox'>"+text+"</textarea><br/><input type='submit' value='Save' id='saveButton'/><input type='hidden' name='contentId' value='"+data[0].id+"'/></form>"
-
+                    content : "<div id='editBox'><form method='POST' action='includes/pages.php?save'><p>Edit content</p><textarea class='ckeditor' name='contentBox'>"+text+"</textarea><br/><input type='submit' value='Save' class='saveButton'/><input type='hidden' name='contentId' value='"+data[0].id+"'/></form></div>"
                 }); 
             }
         });

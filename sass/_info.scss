@@ -31,67 +31,32 @@
 		margin-bottom: 10px;
 		position:relative;
 		font-family: $istok;
-
+		text-align:center;
 	}
 
 	.fb-news-box{
-
-		height: 700px;
-		width: 13%;
-
+		clear:both;
+		width:80%;
 		position: absolute;
 		margin-left: 4%;
 		margin-top: -7%;
 		font-family: $istok;
-
-		.fb-like-box{
-		}
 	}
-	.other-news-box{
-		height: 700px;
-		width: 13%;
-
-		position: absolute;
-		margin-left: 17%;
-		margin-top: -7%;
-
-		text-align: justify;
-		font-family: $istok;
+	.intro{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
 	}
 
 	.big-container-box{
-		height: 700px;
-		width: 25%;
-
-		position: absolute;
-		margin-left: 4%;
-		margin-top: -7%;
-
+		width:80%;
+		height:500px;
+		clear:both;
+		overflow:scroll;
+		margin-left:auto;
+		margin-right:auto;
 		text-align: justify;
 		font-family: $istok;
-
-		.infotext{
-			height: 400px;
-			width: 300px;
-			position: absolute;
-		}
-
-		#infotext1{
-			margin-left:10%;
-			margin-top: 7%;
-		}
-		#infotext2{
-			margin-left: 35%;
-			margin-top: 1%;
-		}
-		#infotext3{
-			margin-left:40%;
-			margin-top: 20%
-		}
-		#infotext4{
-			margin-left:65%;
-			margin-top: 10%;
-		}
 	}
 
 	

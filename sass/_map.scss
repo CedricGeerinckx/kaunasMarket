@@ -47,7 +47,9 @@
 	}
 }
 .infowindow{
-	min-width:500px;
-	min-height:500px;
+	min-width:100px;
+	min-height:100px;
+	overflow: auto;
 	text-align:center;
+	margin:30px;
 }
