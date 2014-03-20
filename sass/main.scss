@@ -17,7 +17,6 @@ $green: #65b342;
 /*HEADERHEIGHT*/
 $headerheight: 80px;
 
-
 body{
 	background-color:$white;
 	font-family: $istok;
@@ -25,7 +24,6 @@ body{
 .section{
 	height:100%;
 	width:100%;
-
 	.arrowDown{
 		position: absolute;
 		width: 50px;
@@ -35,7 +33,6 @@ body{
 		text-align: center;
 		top: 90%;
 		left: 47%;
-
 		&:hover{
 			top:91%;
 			transition: top 0.3s;

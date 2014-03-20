@@ -66,15 +66,15 @@ session_start();
 				<div class="intro">
 					<h1>Information</h1>
 					<div class="big-container-box">
-						<?php
-							if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
-								echo "<button class='editButton' value='information'></button>";
-							}
-							$text = getPage("information");
-							while($content=$text->fetch()) {
-								echo $content["content"];
-							}
-						?>
+					<?php
+					if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
+						echo "<button class='editButton' value='information'></button>";
+					}
+					$text = getPage("information");
+					while($content=$text->fetch()) {
+						echo $content["content"];
+					}
+					?>
 					</div>	
 				</div>
 			</div>
@@ -92,13 +92,18 @@ session_start();
 					<h1>History</h1>
 					<div class="big-container-box">
 					<?php
-						if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
-							echo "<button class='editButton' value='history'></button>";
-						}
-						$text = getPage("history");
-						while($content=$text->fetch()) {
+					if(isset($_SESSION['LOGIN_STATUS']) && $_SESSION['LOGIN_STATUS']=="logged"){
+						echo "<button class='editButton' value='history'></button>";
+					}
+					
+					$text = getPage("history");
+					while($content=$text->fetch()) {
+						if(strlen($content["content"])>2000){
+							echo substr($content["content"],0,2000)."...<p><a href='' id='readMoreHistory'>Read more...</a></p>";
+						}else{
 							echo $content["content"];
 						}
+					}
 					?>
 					</div>
 				</div>
@@ -112,7 +117,6 @@ session_start();
 			</div>
 		</div>
 	<div class="section" id="gallery_">
-
 		<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade" data-ratio="16/9">
 			<?php
 			$images = getGallery();
@@ -158,7 +162,6 @@ session_start();
 					info@seimosukiai.lt<br/>
 					<h2>Opening time</h2>
 					Monday to Friday, 9 am-4pm<br/>
-
 			</div>
 		</div>
 	</div>

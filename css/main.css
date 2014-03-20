@@ -2,18 +2,18 @@
 /*WEIGHTS*/
 /*COLORS*/
 /*HEADERHEIGHT*/
-/* line 21, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 body {
   background-color: #e6e6e6;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 25, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 .section {
   height: 100%;
   width: 100%;
 }
-/* line 29, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
 .section .arrowDown {
   position: absolute;
   width: 50px;
@@ -24,21 +24,21 @@ body {
   top: 90%;
   left: 47%;
 }
-/* line 39, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 .section .arrowDown:hover {
   top: 91%;
   transition: top 0.3s;
 }
-/* line 44, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .section h1 {
   font-size: 50px;
 }
-/* line 47, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 .section h2 {
   font-size: 40px;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .editButton {
   border: none;
   background: #e6e6e6 url("../img/edit.png") no-repeat 2px 2px;
@@ -47,13 +47,13 @@ body {
   cursor: pointer;
 }
 
-/* line 58, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 #editBox {
   text-align: center;
   min-width: 500px;
   min-height: 300px;
 }
-/* line 62, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 #editBox .saveButton {
   width: 120px;
   height: 30px;
@@ -64,7 +64,7 @@ body {
   background-color: #e6e6e6;
   cursor: pointer;
 }
-/* line 72, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 #editBox .saveButton:hover {
   color: #9c723c;
 }
@@ -177,6 +177,15 @@ body {
   color: #ad8454;
 }
 /* line 28, ../sass/_info.scss */
+#section1 a {
+  text-decoration: none;
+  color: #5f4739;
+}
+/* line 32, ../sass/_info.scss */
+#section1 a:hover {
+  color: #ad8454;
+}
+/* line 35, ../sass/_info.scss */
 #section1 h1 {
   font-size: 40px;
   color: #65b342;
@@ -185,31 +194,32 @@ body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
-/* line 37, ../sass/_info.scss */
+/* line 44, ../sass/_info.scss */
 #section1 .fb-news-box {
   clear: both;
-  width: 80%;
   position: absolute;
   margin-left: 4%;
   margin-top: -7%;
   font-family: "Open Sans", sans-serif;
 }
-/* line 45, ../sass/_info.scss */
+/* line 51, ../sass/_info.scss */
 #section1 .intro {
   width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 51, ../sass/_info.scss */
+/* line 58, ../sass/_info.scss */
 #section1 .big-container-box {
+  position: relative;
   width: 80%;
-  height: 60%;
-  clear: both;
-  overflow: scroll;
+  max-height: 70%;
+  overflow: scroll-y;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 /* line 1, ../sass/_map.scss */

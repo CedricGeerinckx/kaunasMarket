@@ -38,7 +38,21 @@ $(document).ready(function() {
                 }); 
             }
         });
-        
+    })
+    $("#readMoreHistory").on("click",function(e){
+        e.preventDefault();
+        var text;
+        $.ajax({
+            type: 'GET',
+            dataType: 'json',
+            url: 'http://localhost/kaunasMarket/includes/pages.php?content=history',
+            success: function(data) {
+                text = data[0].content;
+                $.fancybox.open({
+                    content : text
+                }); 
+            }
+        });
     })
 });
 
