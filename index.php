@@ -19,6 +19,7 @@ session_start();
 
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/main_mobile.css" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
