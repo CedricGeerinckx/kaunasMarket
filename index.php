@@ -25,6 +25,7 @@ session_start();
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
 <!--<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>-->
 <script src="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.js"></script>
+<script src="js/jquery.slimscroll.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="ckeditor/ckeditor.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnnddgOPyxcKNLuayGpUFqmrNAVbusnk8&sensor=true"></script>
@@ -82,8 +83,7 @@ session_start();
 				<div class="intro">
 					<h1>News</h1>
 					<div class="fb-news-box">
-						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="700" data-height="600" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>		
-
+						<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="60%" data-height="50%" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>		
 					</div>
 				</div>
 			</div>
@@ -98,11 +98,14 @@ session_start();
 					
 					$text = getPage("history");
 					while($content=$text->fetch()) {
+						/*
 						if(strlen($content["content"])>2000){
 							echo substr($content["content"],0,2000)."...<p><a href='' id='readMoreHistory'>Read more...</a></p>";
 						}else{
 							echo $content["content"];
 						}
+						*/
+						echo $content["content"];
 					}
 					?>
 					</div>

@@ -9,6 +9,7 @@ $(document).ready(function() {
     	paddingTop: '80px',
         fixedElements: '#navigation',
         loopBottom:true,
+        scrollOverflow: true,
         autoScrolling: true,
     	afterRender: function(){
     		$('.fotorama').fotorama();
