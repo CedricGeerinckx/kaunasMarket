@@ -19,8 +19,8 @@ session_start();
 
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
-<link rel="stylesheet" type="text/css" href="css/main_mobile.css" />
-
+<!-- <link rel="stylesheet" type="text/css" href="css/main_mobile.css" />
+ -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
 <!--<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>-->
@@ -168,16 +168,16 @@ session_start();
 		<div id="mapDiv">
 		</div>
 		<div id="controlpanel">
-			<h2>SELECT CATEGORY</h2>
+			<h2>CATEGORIES</h2>
 			<div id="checkboxes">
-				<input type="checkbox" class="checkbox" value="1" checked="checked" id="c1"/><label for="c1"><span></span></label> Food<br/>
-				<input type="checkbox" class="checkbox" value="3" checked="checked" id="c2"/><label for="c2"><span></span></label> Crafts<br/>
-				<input type="checkbox" class="checkbox" value="2" checked="checked" id="c3"/><label for="c3"><span></span></label> Clothes<br/>
-				<input type="checkbox" class="checkbox" value="4" checked="checked" id="c4"/><label for="c4"><span></span></label> Beauty<br/>
-				<input type="checkbox" class="checkbox" value="5" checked="checked" id="c5"/><label for="c5"><span></span></label> Toys<br/>
-				<input type="checkbox" class="checkbox" value="6" checked="checked" id="c6"/><label for="c6"><span></span></label> Drinks<br/>
-				<input type="checkbox" class="checkbox" value="7" checked="checked" id="c7"/><label for="c7"><span></span></label> Art<br/>
-				<input type="checkbox" class="checkbox" value="8" checked="checked" id="c8"/><label for="c8"><span></span></label> Other<br/>
+				<input type="checkbox" class="checkbox" value="1" checked="checked" id="c1"/><label for="c1"><span></span></label> FOOD<br/>
+				<input type="checkbox" class="checkbox" value="3" checked="checked" id="c2"/><label for="c2"><span></span></label> CRAFT<br/>
+				<input type="checkbox" class="checkbox" value="2" checked="checked" id="c3"/><label for="c3"><span></span></label> CLOTHES<br/>
+				<input type="checkbox" class="checkbox" value="4" checked="checked" id="c4"/><label for="c4"><span></span></label> BEAUTY<br/>
+				<input type="checkbox" class="checkbox" value="5" checked="checked" id="c5"/><label for="c5"><span></span></label> TOYS<br/>
+				<input type="checkbox" class="checkbox" value="6" checked="checked" id="c6"/><label for="c6"><span></span></label> DRINKS<br/>
+				<input type="checkbox" class="checkbox" value="7" checked="checked" id="c7"/><label for="c7"><span></span></label> ART<br/>
+				<input type="checkbox" class="checkbox" value="8" checked="checked" id="c8"/><label for="c8"><span></span></label> OTHER<br/>
 			</div>
 		</div>
 	</div>

@@ -11,23 +11,18 @@ function initialize() {
   };
   var map = new google.maps.Map(document.getElementById("mapDiv"), mapOptions);
 
-  var styles = [
-    {
-      "featureType": "road.local",
-      "elementType": "geometry",
-      "stylers": [
-        { "color": "#d6ccc3" }
-      ]
-    },{
-      "featureType": "road.local",
-      "elementType": "geometry.stroke",
-      "stylers": [
-        { "color": "#4c372a" },
-        { "weight": 1 }
-      ]
-    },{
-    }
-  ];
+  var styles = 
+    [
+      {
+        "featureType": "road.local"  },{
+        "elementType": "geometry.fill"  },{
+        "stylers": [
+          { "saturation": -30 },
+          { "hue": "#00ff6f" },
+          { "weight": 1 }
+        ]
+      }
+    ]
   map.setOptions({styles: styles});
 
   //create markers
