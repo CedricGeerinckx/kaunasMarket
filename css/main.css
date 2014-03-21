@@ -201,17 +201,18 @@ body {
   margin-left: 120px;
   margin-right: 120px;
   padding-top: 45px;
+  box-sizing: border-box;
 }
-/* line 50, ../sass/_info.scss */
+/* line 51, ../sass/_info.scss */
 #section1 .intro a {
   text-decoration: none;
   color: #5f4739;
 }
-/* line 54, ../sass/_info.scss */
+/* line 55, ../sass/_info.scss */
 #section1 .intro a:hover {
   color: #ad8454;
 }
-/* line 57, ../sass/_info.scss */
+/* line 58, ../sass/_info.scss */
 #section1 .intro h1 {
   font-size: 40px;
   color: #261b13;
@@ -220,7 +221,7 @@ body {
   font-family: "Oswald", sans-serif;
   text-align: left;
 }
-/* line 67, ../sass/_info.scss */
+/* line 68, ../sass/_info.scss */
 #section1 .big-container-box {
   text-align: justify;
   font-family: "Open Sans", sans-serif;
