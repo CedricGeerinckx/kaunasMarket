@@ -3,10 +3,6 @@
 		
 	</div>
 
-<!-- 	<div id="register">
-		<a id="register" href="#">REGISTER A VENDOR SPOT</a>
-	</div> -->
-
 	<ul id="navlinks">
 		<li data-menuanchor="home" class="first active">
 			<a href="#home">HOME</a>
