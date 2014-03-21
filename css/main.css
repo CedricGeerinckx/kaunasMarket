@@ -145,7 +145,8 @@ body {
 #section1 .intro {
   margin-left: 120px;
   margin-right: 120px;
-  padding-top: 45px; }
+  padding-top: 45px;
+  box-sizing: border-box; }
   #section1 .intro a {
     text-decoration: none;
     color: #5f4739; }
