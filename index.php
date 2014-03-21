@@ -124,8 +124,8 @@ include("includes/navigation.php");
 		</div>
 		<div class="slide">
 			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
-				  <a href="http://vimeo.com/52660967">Staff Pick</a>
-				  <a href="http://vimeo.com/61527416">Celestial Dynamics</a>
+				  <a href="https://www.youtube.com/watch?v=SxozohpuEvQ">FAMERS + KAUNAS = FOOD</a>
+				  <a href="https://www.youtube.com/watch?v=HSH_3ni6p14">UKININKAI + KAUNAS = MAISTAS</a>
 			</div>
 		</div>
 		<div class="slide">
