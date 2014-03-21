@@ -143,7 +143,7 @@ session_start();
 	  	<div class="subMenu">
 	  		<ul>
 	  			<li>
-	  				<a id="pictures">
+	  				<a class="active" id="pictures">
 
 	  					PICTURES
 	  				

@@ -33,14 +33,19 @@
 				padding-right: 5px;
 				color: $white;
 				text-decoration:none;
+				&.active{
+					color: $lightestbrown;
+				}
+				&:hover{
+					color:$lightestbrown;
+				}
+			
 			}
-			a:hover{
-				color:$lightestbrown;
-			}
+		
+
+			
 		}
-		li.active a{
-			color:$lightestbrown;
-		}
+		
 
 	}
 
