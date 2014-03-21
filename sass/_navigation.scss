@@ -54,13 +54,13 @@
 .alertBox{
 	width:100%;
 	position:fixed;
-	top:80px;
+	bottom:0;
 	z-index:98;
 	color:#555555;
 	padding:10px 10px 10px 36px;
 	text-align:center;
 	background-color:#ffecec;
-	border-bottom:1px solid #f5aca6;
+	border-top:1px solid #f5aca6;
 	a{
 		text-decoration:none;
 		color:$lightbrown;
