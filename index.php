@@ -27,7 +27,7 @@ session_start();
 <script src="js/jquery.slimscroll.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="ckeditor/ckeditor.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnnddgOPyxcKNLuayGpUFqmrNAVbusnk8&sensor=true"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEGioR1cUS84rLlR3gsCysDAwQSpyVirg&sensor=true"></script>
 <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script src="js/main.js"></script>
 <script src="js/map.js"></script>
@@ -124,7 +124,7 @@ include("includes/navigation.php");
 		</div>
 		<div class="slide">
 			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
-				  <a href="http://youtube.com/watch?v=C3lWwBslWqg">Desert Rose</a>
+				  <a href="http://vimeo.com/52660967">Staff Pick</a>
 				  <a href="http://vimeo.com/61527416">Celestial Dynamics</a>
 			</div>
 		</div>
