@@ -103,13 +103,13 @@ session_start();
 					</div>
 				</div>
 			</div>
-			<div class="fullPage-slidesNav bottom">
-				<ul>
-					<li><a href="#" class="active">INFORMATION</a></li>
+			<div class="fullPage-slidesNav">
+		  		<ul>
+		  			<li><a href="#" class="active">INFORMATION</a></li>
 					<li><a href="#">NEWS</a></li>
 					<li><a href="#">HISTORY</a></li>
-				</ul>
-			</div>
+		  		</ul>
+		  	</div>
 		</div>
 	<div class="section" id="gallery_">
 		<div class="slide">
@@ -124,44 +124,22 @@ session_start();
 			
 		</div>
 		<div class="slide">
-
 			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
 				  <a href="http://youtube.com/watch?v=C3lWwBslWqg">Desert Rose</a>
 				  <a href="http://vimeo.com/61527416">Celestial Dynamics</a>
 			</div>
-
-			
 		</div>
 		<div class="slide">
 			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
 				  <a href="http://vimeo.com/61527416">Celestial Dynamics</a>
 			</div>
-			
 		</div>
-	
-	
-	  	<div class="subMenu">
+	  	<div class="fullPage-slidesNav">
 	  		<ul>
-	  			<li>
-	  				<a class="active" id="pictures">
-
-	  					PICTURES
-	  				
-	  			</li>
-	  			
-	  			<li>
-	  				<a id="movies">
-	  					MOVIES
-	  				</a>
-	  			</li>
-	  			<li>
-	  				<a id="documentary">
-	  					DOCUMENTARY
-	  				</a>
-	  			</li>
-	  			
+	  			<li><a href="#" class="active">PICTURES</a></li>
+	  			<li><a href="#">MOVIES</a></li>
+	  			<li><a href="#">DOCUMENTARY</a></li>
 	  		</ul>
-		
 	  	</div>
 	</div>
 	<div class="section" id="map_">

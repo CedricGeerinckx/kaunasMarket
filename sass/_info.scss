@@ -1,66 +1,70 @@
 #section1{
 	.fullPage-slidesNav{
-		width:180px;
-		margin-top:50%;
-		margin-left:80px;
-		ul{
-			text-align: left;
-			list-style: none;
-			font-family: $istok;
-			li{
-				display: block;
-				a{
-					text-decoration:none;
-					font-family: $istok;
-					color:#5f4739;
-					font-size:25px;
-				
+		position: absolute;
+		right: 40px;
+		top: 38px;
+		margin-top:30px;
+		list-style:none;
+		margin-right:70px;
+		li{
+			background-color: $brown;
+			font-weight: $bold;
+			/*border-left: 1px solid $green;*/
+			font-family: $incon;
+			display:inline-block;
+			height:100%;
+			text-align: center;
+			padding:0 20px;
+			font-size: 18px;
+			color:$white;
+			a{
+				cursor: pointer;
+				width:300px;
+				padding-left: 5px;
+				padding-right: 5px;
+				color: $white;
+				text-decoration:none;
+				&.active{
+					color: $lightestbrown;
 				}
-				a.active{
-						color:#ad8454;
-					}
-				a:hover{
-					color:#ad8454;
+				&:hover{
+					color:$lightestbrown;
 				}
-
 			}
 		}
 	}
-	a{
-		text-decoration:none;
-		color:#5f4739;
-	}
-	a:hover{
-		color:#ad8454;
-	}
-	h1{ 
-		font-size: 40px;
-		color: $green;
-		margin-bottom: 10px;
-		position:relative;
+	.fb-news-box{
+		clear:both;
+		margin-left:auto;
+		margin-right:auto;
 		font-family: $istok;
-		text-align:center;
-	}
 
-		.fb-news-box{
-			clear:both;
-			margin-left:auto;
-			margin-right:auto;
-			font-family: $istok;
-
-			.fb-like-box, .fb-like-box span, .fb-like-box.fb_iframe_widget span iframe {
-	    	width: 100% !important;
-			}
+		.fb-like-box, .fb-like-box span, .fb-like-box.fb_iframe_widget span iframe {
+    	width: 100% !important;
 		}
-
+	}
 	.intro{
-		width:80%;
-		height:80%;
-		margin-left:300px;
+		margin-left:120px;
+		margin-right:120px;
+		padding-top:45px;
+		a{
+			text-decoration:none;
+			color:#5f4739;
+		}
+		a:hover{
+			color:#ad8454;
+		}
+		h1{ 
+			font-size: 40px;
+			color: $brown;
+			margin-bottom: 10px;
+			position:relative;
+			font-family: $incon;
+			text-align:left;
+	}
 	}
 
 	.big-container-box{
-		width:80%;
 		text-align: justify;
 		font-family: $istok;
 		padding-bottom:60px;
