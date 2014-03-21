@@ -6,14 +6,13 @@
 		top: $headerheight;
 		width: 100%;
 	}
-	.subMenu{
+	.fullPage-slidesNav{
 		position: absolute;
 		right: 40px;
 		top: 38px;
 		margin-top:30px;
 		list-style:none;
 		margin-right:70px;
-
 		li{
 			background-color: $brown;
 			font-weight: $bold;
@@ -25,7 +24,6 @@
 			padding:0 20px;
 			font-size: 18px;
 			color:$white;
-
 			a{
 				cursor: pointer;
 				width:300px;
@@ -39,14 +37,7 @@
 				&:hover{
 					color:$lightestbrown;
 				}
-			
 			}
-		
-
-			
 		}
-		
-
 	}
-
 }

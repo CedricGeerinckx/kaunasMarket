@@ -3,8 +3,6 @@ $(document).ready(function() {
     $.fn.fullpage({
     	anchors: ['home', 'info', 'gallery', 'map', 'contact'],
     	menu: '#navlinks',
-        slidesNavigation: true,
-
     	scrollingSpeed: 500,
     	easing: 'easeInOutSine',
     	paddingTop: '80px',
