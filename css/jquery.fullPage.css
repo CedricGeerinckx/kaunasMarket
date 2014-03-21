@@ -53,27 +53,7 @@ html, body {
     float: left;
     position: relative;
 }
-.controlArrow {
-    position: absolute;
-    top: 50%;
-    cursor: pointer;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    margin-top: -38px;
-    z-index: 5;
-}
-.controlArrow.prev {
-    left: 15px;
-    width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #65b342 transparent transparent;
-}
-.controlArrow.next {
-    right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #65b342;
-}
+
 .scrollable {
     overflow: scroll;
 }

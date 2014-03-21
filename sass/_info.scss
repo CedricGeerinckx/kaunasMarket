@@ -42,12 +42,17 @@
 		text-align:center;
 	}
 
-	.fb-news-box{
-		clear:both;
-		margin-left:auto;
-		margin-right:auto;
-		font-family: $istok;
-	}
+		.fb-news-box{
+			clear:both;
+			margin-left:auto;
+			margin-right:auto;
+			font-family: $istok;
+
+			.fb-like-box, .fb-like-box span, .fb-like-box.fb_iframe_widget span iframe {
+	    	width: 100% !important;
+			}
+		}
+
 	.intro{
 		width:80%;
 		height:80%;

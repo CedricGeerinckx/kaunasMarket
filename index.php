@@ -57,7 +57,7 @@ session_start();
 		</div>
 		<a href="#"><div class="register">
 			<p><span>REGISTER</span></p>
-			<p> A VENDOR SPOT</p>
+			 <p>A VENDOR SPOT</p>
 		</div></a>
 	</div>
 	<div class="arrowDown"></div>
@@ -112,13 +112,56 @@ session_start();
 			</div>
 		</div>
 	<div class="section" id="gallery_">
-		<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade" data-ratio="16/9">
-			<?php
-			$images = getGallery();
-			while($image=$images->fetch()){
-				echo "<img src='img/gallery/".$image["name"]."'/>";
-			}
-			?>
+		<div class="slide">
+			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-nav="thumbs" data-fit='cover' data-keyboard="true" data-transition="crossfade" data-ratio="16/9">
+				<?php
+				$images = getGallery();
+				while($image=$images->fetch()){
+					echo "<img src='img/gallery/".$image["name"]."'/>";
+				}
+				?>
+		  	</div>
+			
+		</div>
+		<div class="slide">
+
+			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
+				  <a href="http://youtube.com/watch?v=C3lWwBslWqg">Desert Rose</a>
+				  <a href="http://vimeo.com/61527416">Celestial Dynamics</a>
+			</div>
+
+			
+		</div>
+		<div class="slide">
+			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
+				  <a href="http://vimeo.com/61527416">Celestial Dynamics</a>
+			</div>
+			
+		</div>
+	
+	
+	  	<div class="subMenu">
+	  		<ul>
+	  			<li>
+	  				<a class="active" id="pictures">
+
+	  					PICTURES
+	  				
+	  			</li>
+	  			
+	  			<li>
+	  				<a id="movies">
+	  					MOVIES
+	  				</a>
+	  			</li>
+	  			<li>
+	  				<a id="documentary">
+	  					DOCUMENTARY
+	  				</a>
+	  			</li>
+	  			
+	  		</ul>
+		
 	  	</div>
 	</div>
 	<div class="section" id="map_">

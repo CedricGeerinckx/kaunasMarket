@@ -12,9 +12,9 @@
  #navigation #logo{
 	 margin:0;
 	margin-right:auto;
-	 margin-left: 30%;
-	 height: 100px;
-    width: 100px;
+	 margin-left: 35%;
+	 height: 70px;
+    width: 70px;
 		/*background-color: #33241a;
 		height: 100	%;
     	width: 200px;
@@ -94,8 +94,30 @@
       width: 400px; }
 
       .videoContainer .register{
-         visibility: hidden;
+     /* visibility: hidden; */
+position: absolute;
+bottom: 7px;
+right: 178px;
+float: right;
+width: 75px;
+height: 75px;
+background-color: #65b342;
+border-radius: 90px;
+-webkit-border-radius: 90px;
+-moz-border-radius: 90px; }
+      
+
+      .videoContainer .register p span{
+        font-size: 7px; 
+        top: 10px;
       }
+       .videoContainer .register p {
+        font-size: 8px; 
+        top: 3px;
+        letter-spacing: 4px;
+      }
+       
+       }
 
       .section .arrowDown {
         visibility: hidden;

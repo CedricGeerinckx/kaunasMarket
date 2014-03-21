@@ -2,229 +2,164 @@
 /*WEIGHTS*/
 /*COLORS*/
 /*HEADERHEIGHT*/
-/* line 20, ../sass/main.scss */
 body {
   background-color: #e6e6e6;
-  font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
-/* line 24, ../sass/main.scss */
 .section {
   height: 100%;
-  width: 100%;
-}
-/* line 27, ../sass/main.scss */
-.section .arrowDown {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: url(../img/arrow.png);
-  background-size: cover;
-  text-align: center;
-  top: 90%;
-  left: 47%;
-}
-/* line 36, ../sass/main.scss */
-.section .arrowDown:hover {
-  top: 91%;
-  transition: top 0.3s;
-}
-/* line 41, ../sass/main.scss */
-.section h1 {
-  font-size: 50px;
-}
-/* line 44, ../sass/main.scss */
-.section h2 {
-  font-size: 40px;
-}
+  width: 100%; }
+  .section .arrowDown {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url(../img/arrow.png);
+    background-size: cover;
+    text-align: center;
+    top: 90%;
+    left: 47%; }
+    .section .arrowDown:hover {
+      top: 91%;
+      transition: top 0.3s; }
+  .section h1 {
+    font-size: 50px; }
+  .section h2 {
+    font-size: 40px; }
 
-/* line 48, ../sass/main.scss */
 .editButton {
   border: none;
   background: #e6e6e6 url("../img/edit.png") no-repeat 2px 2px;
   width: 24px;
   height: 24px;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-/* line 55, ../sass/main.scss */
 #editBox {
   text-align: center;
   min-width: 500px;
-  min-height: 300px;
-}
-/* line 59, ../sass/main.scss */
-#editBox .saveButton {
-  width: 120px;
-  height: 30px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #4c372a;
-  border: none;
-  background-color: #e6e6e6;
-  cursor: pointer;
-}
-/* line 69, ../sass/main.scss */
-#editBox .saveButton:hover {
-  color: #9c723c;
-}
+  min-height: 300px; }
+  #editBox .saveButton {
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #4c372a;
+    border: none;
+    background-color: #e6e6e6;
+    cursor: pointer; }
+  #editBox .saveButton:hover {
+    color: #9c723c; }
 
 /*Import additional stylesheets*/
-/* line 1, ../sass/_home.scss */
 #home_ {
-  background-color: rgba(0, 0, 0, 0.4);
-}
+  background-color: rgba(0, 0, 0, 0.4); }
 
-/* line 5, ../sass/_home.scss */
 .videoContainer {
   overflow: hidden;
   margin-top: -100px;
-  width: 100%;
-}
-/* line 10, ../sass/_home.scss */
-.videoContainer #homeVid {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 50%;
-  min-height: 50%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-}
-/* line 22, ../sass/_home.scss */
-.videoContainer .overlay {
-  margin-top: -150px;
-  margin-left: 120px;
-  position: absolute;
-  z-index: 2;
-}
-/* line 27, ../sass/_home.scss */
-.videoContainer .overlay h2 {
-  font-family: "Oswald", sans-serif;
-  font-size: 65px;
-  color: #e6e6e6;
-}
-/* line 33, ../sass/_home.scss */
-.videoContainer .overlay p {
-  color: #e6e6e6;
-  font-size: 35px;
-  font-family: "Open Sans", sans-serif;
-  width: 400px;
-}
-/* line 41, ../sass/_home.scss */
-.videoContainer .register {
-  position: absolute;
-  bottom: 25px;
-  right: 40px;
-  float: right;
-  width: 180px;
-  height: 180px;
-  background-color: #65b342;
-  border-radius: 90px;
-  -webkit-border-radius: 90px;
-  -moz-border-radius: 90px;
-}
-/* line 53, ../sass/_home.scss */
-.videoContainer .register p {
-  line-height: 18px;
-  font-size: 12px;
-  letter-spacing: 5px;
-  position: relative;
-  top: 55px;
-  color: #e6e6e6;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-}
-/* line 55, ../sass/_home.scss */
-.videoContainer .register p span {
-  font-size: 30px;
-}
-/* line 67, ../sass/_home.scss */
-.videoContainer .register:hover {
-  bottom: 30px;
-  transition: bottom 0.3s;
-}
+  width: 100%; }
+  .videoContainer #homeVid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 50%;
+    min-height: 50%;
+    width: auto;
+    height: auto;
+    z-index: -100; }
+  .videoContainer .overlay {
+    margin-top: -150px;
+    margin-left: 120px;
+    position: absolute;
+    z-index: 2; }
+    .videoContainer .overlay h2 {
+      font-family: "Oswald", sans-serif;
+      font-size: 65px;
+      color: #e6e6e6; }
+    .videoContainer .overlay p {
+      color: #e6e6e6;
+      font-size: 35px;
+      font-family: "Open Sans", sans-serif;
+      width: 400px; }
+  .videoContainer .register {
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    float: right;
+    width: 180px;
+    height: 180px;
+    background-color: #65b342;
+    border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px; }
+    .videoContainer .register p {
+      line-height: 18px;
+      font-size: 12px;
+      letter-spacing: 5px;
+      position: relative;
+      top: 55px;
+      color: #e6e6e6;
+      text-align: center;
+      font-family: "Oswald", sans-serif; }
+      .videoContainer .register p span {
+        font-size: 30px; }
+    .videoContainer .register:hover {
+      bottom: 30px;
+      transition: bottom 0.3s; }
 
-/* line 2, ../sass/_info.scss */
 #section1 .fullPage-slidesNav {
   width: 180px;
   margin-top: 50%;
-  margin-left: 80px;
-}
-/* line 6, ../sass/_info.scss */
-#section1 .fullPage-slidesNav ul {
-  text-align: left;
-  list-style: none;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 10, ../sass/_info.scss */
-#section1 .fullPage-slidesNav ul li {
-  display: block;
-}
-/* line 12, ../sass/_info.scss */
-#section1 .fullPage-slidesNav ul li a {
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  color: #5f4739;
-  font-size: 25px;
-}
-/* line 19, ../sass/_info.scss */
-#section1 .fullPage-slidesNav ul li a.active {
-  color: #ad8454;
-}
-/* line 22, ../sass/_info.scss */
-#section1 .fullPage-slidesNav ul li a:hover {
-  color: #ad8454;
-}
-/* line 29, ../sass/_info.scss */
+  margin-left: 80px; }
+  #section1 .fullPage-slidesNav ul {
+    text-align: left;
+    list-style: none;
+    font-family: "Open Sans", sans-serif; }
+    #section1 .fullPage-slidesNav ul li {
+      display: block; }
+      #section1 .fullPage-slidesNav ul li a {
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        color: #5f4739;
+        font-size: 25px; }
+      #section1 .fullPage-slidesNav ul li a.active {
+        color: #ad8454; }
+      #section1 .fullPage-slidesNav ul li a:hover {
+        color: #ad8454; }
 #section1 a {
   text-decoration: none;
-  color: #5f4739;
-}
-/* line 33, ../sass/_info.scss */
+  color: #5f4739; }
 #section1 a:hover {
-  color: #ad8454;
-}
-/* line 36, ../sass/_info.scss */
+  color: #ad8454; }
 #section1 h1 {
   font-size: 40px;
   color: #65b342;
   margin-bottom: 10px;
   position: relative;
   font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-/* line 45, ../sass/_info.scss */
+  text-align: center; }
 #section1 .fb-news-box {
   clear: both;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 51, ../sass/_info.scss */
+  font-family: "Open Sans", sans-serif; }
+  #section1 .fb-news-box .fb-like-box, #section1 .fb-news-box .fb-like-box span, #section1 .fb-news-box .fb-like-box.fb_iframe_widget span iframe {
+    width: 100% !important; }
 #section1 .intro {
   width: 80%;
   height: 80%;
-  margin-left: 300px;
-}
-/* line 57, ../sass/_info.scss */
+  margin-left: 300px; }
 #section1 .big-container-box {
   width: 80%;
   text-align: justify;
   font-family: "Open Sans", sans-serif;
   padding-bottom: 60px;
-  padding-top: 10px;
-}
+  padding-top: 10px; }
 
-/* line 1, ../sass/_map.scss */
 #mapDiv {
   float: left;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 6, ../sass/_map.scss */
 #controlpanel {
   position: absolute;
   right: 0;
@@ -239,52 +174,38 @@ body {
   margin-right: 10px;
   box-sizing: border-box;
   color: #261b13;
-  font-variant: small-caps;
-}
-/* line 20, ../sass/_map.scss */
-#controlpanel h2 {
-  padding-bottom: 10px;
-  border-bottom: 1px solid black;
-  font-family: "Oswald", sans-serif;
-  font-size: 25px;
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: #261b13;
-}
-/* line 30, ../sass/_map.scss */
-#controlpanel #checkboxes {
-  margin: 0 0 10px 10px;
-}
-/* line 32, ../sass/_map.scss */
-#controlpanel #checkboxes input[type="checkbox"] {
-  display: none;
-}
-/* line 35, ../sass/_map.scss */
-#controlpanel #checkboxes input[type="checkbox"] + label span {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  line-height: 30px;
-  vertical-align: middle;
-  background: url("../img/checkbox.png") center no-repeat;
-  cursor: pointer;
-}
-/* line 44, ../sass/_map.scss */
-#controlpanel #checkboxes input[type="checkbox"]:checked + label span {
-  background: url("../img/checkbox_checked.png") center no-repeat;
-}
+  font-variant: small-caps; }
+  #controlpanel h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #261b13; }
+  #controlpanel #checkboxes {
+    margin: 0 0 10px 10px; }
+    #controlpanel #checkboxes input[type="checkbox"] {
+      display: none; }
+    #controlpanel #checkboxes input[type="checkbox"] + label span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      line-height: 30px;
+      vertical-align: middle;
+      background: url("../img/checkbox.png") center no-repeat;
+      cursor: pointer; }
+    #controlpanel #checkboxes input[type="checkbox"]:checked + label span {
+      background: url("../img/checkbox_checked.png") center no-repeat; }
 
-/* line 49, ../sass/_map.scss */
 .infowindow {
   min-width: 100px;
   min-height: 100px;
   overflow: auto;
   text-align: center;
-  margin: 30px;
-}
+  margin: 30px; }
 
-/* line 1, ../sass/_navigation.scss */
 #navigation {
   height: 80px;
   width: 100%;
@@ -294,58 +215,42 @@ body {
   display: block;
   -webkit-box-shadow: 0 1px 1px -1px #261b13;
   -moz-box-shadow: 0 1px 1px -1px #261b13;
-  box-shadow: 0 1px 1px -1px #261b13;
-}
-/* line 11, ../sass/_navigation.scss */
-#navigation #logo {
-  height: 150px;
-  width: 150px;
-  margin-left: 50px;
-  background: url(../img/logo.png);
-  background-size: cover;
-  float: left;
-}
-/* line 19, ../sass/_navigation.scss */
-#navigation #navlinks {
-  margin-top: 30px;
-  list-style: none;
-  margin-right: 70px;
-  float: right;
-  height: 28px;
-}
-/* line 25, ../sass/_navigation.scss */
-#navigation #navlinks li {
-  font-weight: 700;
-  border-left: 1px solid #65b342;
-  font-family: "Oswald", sans-serif;
-  display: inline-block;
-  height: 100%;
-  text-align: center;
-  padding: 0 20px;
-  font-size: 20px;
-}
-/* line 34, ../sass/_navigation.scss */
-#navigation #navlinks li a {
-  width: 300px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: none;
-  color: #4c372a;
-}
-/* line 41, ../sass/_navigation.scss */
-#navigation #navlinks li a:hover {
-  color: #9c723c;
-}
-/* line 45, ../sass/_navigation.scss */
-#navigation #navlinks li.active a {
-  color: #9c723c;
-}
-/* line 48, ../sass/_navigation.scss */
-#navigation #navlinks .first {
-  border: none;
-}
+  box-shadow: 0 1px 1px -1px #261b13; }
+  #navigation #logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    background: url(../img/logo.png);
+    background-size: cover;
+    float: left; }
+  #navigation #navlinks {
+    margin-top: 27px;
+    list-style: none;
+    margin-right: 70px;
+    float: right;
+    height: 28px; }
+    #navigation #navlinks li {
+      font-weight: 700;
+      border-left: 1px solid #65b342;
+      font-family: "Oswald", sans-serif;
+      display: inline-block;
+      height: 100%;
+      text-align: center;
+      padding: 0 20px;
+      font-size: 20px; }
+      #navigation #navlinks li a {
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+        color: #4c372a; }
+      #navigation #navlinks li a:hover {
+        color: #9c723c; }
+    #navigation #navlinks li.active a {
+      color: #9c723c; }
+    #navigation #navlinks .first {
+      border: none; }
 
-/* line 53, ../sass/_navigation.scss */
 .alertBox {
   width: 100%;
   position: fixed;
@@ -355,95 +260,103 @@ body {
   padding: 10px 10px 10px 36px;
   text-align: center;
   background-color: #ffecec;
-  border-bottom: 1px solid #f5aca6;
-}
-/* line 63, ../sass/_navigation.scss */
-.alertBox a {
-  text-decoration: none;
-  color: #4c372a;
-}
-/* line 67, ../sass/_navigation.scss */
-.alertBox a:hover {
-  color: #9c723c;
-}
+  border-bottom: 1px solid #f5aca6; }
+  .alertBox a {
+    text-decoration: none;
+    color: #4c372a; }
+  .alertBox a:hover {
+    color: #9c723c; }
 
-/* line 1, ../sass/_gallery.scss */
 #gallery_ {
-  height: calc(100% - $headerheight);
-  background-color: black;
-}
+  background-color: black; }
+  #gallery_ .fotorama {
+    /*position: absolute;*/
+    margin-left: 0;
+    top: 80px;
+    width: 100%; }
+  #gallery_ .subMenu {
+    position: absolute;
+    right: 40px;
+    top: 38px;
+    margin-top: 30px;
+    list-style: none;
+    margin-right: 70px; }
+    #gallery_ .subMenu li {
+      background-color: #261b13;
+      font-weight: 700;
+      /*border-left: 1px solid $green;*/
+      font-family: "Oswald", sans-serif;
+      display: inline-block;
+      height: 100%;
+      text-align: center;
+      padding: 0 20px;
+      font-size: 18px;
+      color: #e6e6e6; }
+      #gallery_ .subMenu li a {
+        cursor: pointer;
+        width: 300px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #e6e6e6;
+        text-decoration: none; }
+        #gallery_ .subMenu li a.active {
+          color: #9c723c; }
+        #gallery_ .subMenu li a:hover {
+          color: #9c723c; }
 
-/* line 2, ../sass/_contact.scss */
 #contact_ h1 {
   font-family: "Oswald", sans-serif;
   font-size: 65px;
   color: #261b13;
-  position: relative;
-}
-/* line 9, ../sass/_contact.scss */
+  position: relative; }
 #contact_ .contactform {
   height: 600px;
   width: 60%;
-  background-color: #ff9900;
-}
-/* line 15, ../sass/_contact.scss */
+  background-color: #ff9900; }
 #contact_ #contactform {
   margin-left: 10%;
   margin-right: auto;
   float: left;
-  width: 40%;
-}
-/* line 21, ../sass/_contact.scss */
-#contact_ #contactform input[type="text"], #contact_ #contactform textarea {
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  padding: 15px;
-  margin-top: 1px;
-  border: none;
-  background: #4c372a;
-  color: #e6e6e6;
-  resize: none;
-}
-/* line 34, ../sass/_contact.scss */
-#contact_ #contactform input[type="submit"] {
-  width: 200px;
-  float: left;
-  font-size: 1em;
-  padding: 16px 40px;
-  margin-top: 10px;
-  border: none;
-  background: #4c372a;
-  color: #e6e6e6;
-  font-weight: 300;
-  cursor: pointer;
-}
-/* line 46, ../sass/_contact.scss */
-#contact_ #contactform input[type="submit"]:hover {
-  background: #9c723c;
-  color: #e6e6e6;
-}
-/* line 52, ../sass/_contact.scss */
+  width: 40%; }
+  #contact_ #contactform input[type="text"], #contact_ #contactform textarea {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 1px;
+    border: none;
+    background: #4c372a;
+    color: #e6e6e6;
+    resize: none; }
+  #contact_ #contactform input[type="submit"] {
+    width: 200px;
+    float: left;
+    font-size: 1em;
+    padding: 16px 40px;
+    margin-top: 10px;
+    border: none;
+    background: #4c372a;
+    color: #e6e6e6;
+    font-weight: 300;
+    cursor: pointer; }
+  #contact_ #contactform input[type="submit"]:hover {
+    background: #9c723c;
+    color: #e6e6e6; }
 #contact_ #contactinfo {
   float: left;
   margin-left: 5%;
   margin-right: auto;
   padding-left: 15px;
-  text-align: left;
-}
-/* line 61, ../sass/_contact.scss */
-#contact_ #contactinfo h1 {
-  margin-top: 15%;
-  margin-left: 0%;
-  margin-bottom: 35px;
-}
-/* line 66, ../sass/_contact.scss */
-#contact_ #contactinfo h2 {
-  font-family: "Oswald", sans-serif;
-  font-size: 30px;
-  color: #261b13;
-  position: relative;
-  margin-bottom: 13px;
-}
+  text-align: left; }
+  #contact_ #contactinfo h1 {
+    margin-top: 15%;
+    margin-left: 0%;
+    margin-bottom: 35px; }
+  #contact_ #contactinfo h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #261b13;
+    position: relative;
+    margin-bottom: 13px; }
