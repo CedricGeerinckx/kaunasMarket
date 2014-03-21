@@ -54,7 +54,7 @@ include("includes/navigation.php");
 				the countryside and the city.
 			</p>
 		</div>
-		<a href="#"><div class="register">
+		<a href="http://ipkaunas-001-site1.smarterasp.net/registration/default.aspx"><div class="register">
 			<p><span>REGISTER</span></p>
 			 <p>A VENDOR SPOT</p>
 		</div></a>

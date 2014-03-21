@@ -29,7 +29,7 @@ function initialize() {
   $.ajax({
     type: 'GET',
     dataType: 'json',
-    url: 'http://localhost/kaunasMarket/includes/vendors.php',
+    url: 'http://ip.cal.lt/includes/vendors.php',
     success: function(data) {
       for(var i=0; i<data.length; i++){
         var siteLatLng = new google.maps.LatLng(data[i].lat,data[i].long);
