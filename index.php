@@ -126,6 +126,8 @@ include("includes/navigation.php");
 			<div class="fotorama" data-width="100%" data-height="88%" data-auto="false" data-fit='cover'>
 				  <a href="https://www.youtube.com/watch?v=SxozohpuEvQ">FAMERS + KAUNAS = FOOD</a>
 				  <a href="https://www.youtube.com/watch?v=HSH_3ni6p14">UKININKAI + KAUNAS = MAISTAS</a>
+				  <a href="https://www.youtube.com/watch?v=J6b2a2c2DVk">Crafts + Kaunas = AUTHENTIC</a>
+				  <a href="https://www.youtube.com/watch?v=_6tDUa_lQFw">Amatai + Kaunas = AUTENTIKA</a>
 			</div>
 		</div>
 		<div class="slide">
