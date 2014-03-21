@@ -46,7 +46,8 @@ function initialize() {
           id: data[i].ID,
           icon: categories[data[i].category][1],
           category: categories[data[i].category][0],
-          description: data[i].desc
+          description: data[i].desc,
+          name: data[i].name
         });
         markerGroups[data[i].category].push(marker);
         google.maps.event.addListener(marker, "mouseover", function () {
@@ -58,7 +59,7 @@ function initialize() {
         });
         google.maps.event.addListener(marker, 'click', function() {
           $.fancybox.open({
-            content : "<div class='infowindow'><h1>Vendor "+this.get("id")+"</h1><img src='http://farm1.staticflickr.com/93/232880228_379d2b407c_z.jpg' width='400' height='auto'/><p>Category: "+this.get("category")+"</p><p>"+this.get("description")+"</p></div>"
+            content : "<div class='infowindow'><h1>"+this.get("name")+"</h1><img src='http://farm1.staticflickr.com/93/232880228_379d2b407c_z.jpg' width='400' height='auto'/><p>Category: "+this.get("category")+"</p><p>"+this.get("description")+"</p></div>"
           });
         });
       }
