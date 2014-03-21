@@ -236,9 +236,9 @@ body {
 #navigation {
   height: 80px;
   width: 100%;
-  position: fixed;
+  position: fixed !important;
   background-color: #e6e6e6;
-  z-index: 99;
+  z-index: 999;
   display: block;
   -webkit-box-shadow: 0 1px 1px -1px #261b13;
   -moz-box-shadow: 0 1px 1px -1px #261b13;

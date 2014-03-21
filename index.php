@@ -7,11 +7,10 @@ session_start();
 
 <meta charset="utf-8"/>
 <title>KAUNAS KAZIMIERAS FAIR</title>
-<meta description="">
-<meta keywords="kaziuko muge, kaziuko, muge, kaunas, kaunas muge, kaziuko kaunas">
+<meta keywords="kaziuko muge, kaziuko, muge, kaunas, kaunas muge, kaziuko kaunas" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 
 
 <link rel="stylesheet" href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" />
@@ -36,11 +35,11 @@ session_start();
 </head>
 
 <body>
-	<?php
-	include('includes/functions.php');
-	include("includes/navigation.php");
-	?>
-	<div id="superContainer">
+<?php
+include('includes/functions.php');
+include("includes/navigation.php");
+?>
+<div id="superContainer">
 	<div class="section active" id="home_">
 	<div class="videoContainer">
 		<video id="homeVid" loop>
@@ -117,7 +116,7 @@ session_start();
 				<?php
 				$images = getGallery();
 				while($image=$images->fetch()){
-					echo "<img src='img/gallery/".$image["name"]."'/>";
+					echo "<img src='img/gallery/".$image["name"]."' alt='".$image["name"]."' />";
 				}
 				?>
 		  	</div>
@@ -181,7 +180,7 @@ session_start();
 			</div>
 		</div>
 	</div>
-
+</div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;

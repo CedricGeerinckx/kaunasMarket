@@ -1,9 +1,9 @@
 #navigation{
 	height:$headerheight;
 	width:100%;
-	position:fixed;
+	position:fixed !important;
 	background-color:$white;
-	z-index:99;
+	z-index:999;
 	display:block;
 	-webkit-box-shadow: 0 1px 1px -1px $brown;
        -moz-box-shadow: 0 1px 1px -1px $brown;
