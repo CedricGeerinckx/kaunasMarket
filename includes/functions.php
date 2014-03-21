@@ -12,7 +12,7 @@ function login($user, $password){
         $status = true;
     }
     if($status){
-        $result = $conn->prepare("SELECT * FROM admin WHERE username= ? AND pass= ?");
+        $result = $conn->prepare("SELECT * FROM user WHERE username= ? AND pass= ?");
         $result->bindParam(1, $user);
         $result->bindParam(2, $password);
         $result->execute();
