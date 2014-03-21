@@ -199,12 +199,10 @@ body {
     font-family: "Oswald", sans-serif;
     font-weight: 700;
     font-size: 15px;
-    margin: 0 0 10px 10px; }
+    margin: 0 0 15px0px 10px; }
     #controlpanel #checkboxes input[type="checkbox"] {
       display: none; }
     #controlpanel #checkboxes input[type="checkbox"] + label span {
-      margin-left: 0px;
-      margin-right: 170px;
       display: inline-block;
       width: 20px;
       height: 20px;
@@ -229,7 +227,15 @@ body {
     border-bottom: 1px solid #261b13;
     text-align: left;
     color: #261b13; }
+  .infowindow p {
+    width: 200px;
+    text-align: left;
+    font-family: "Open Sans", sans-serif; }
+  .infowindow .category {
+    font-family: "Oswald", sans-serif;
+    color: #261b13; }
   .infowindow img {
+    border: 1px solid black;
     float: right;
     width: 600px; }
 
